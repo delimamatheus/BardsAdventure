@@ -6,7 +6,7 @@
     "path": "folders/Scripts/Attacks.yy",
   },
   "resourceVersion": "1.0",
-  "name": "AttackSpin",
+  "name": "AttackFunction",
   "tags": [],
   "resourceType": "GMScript",
 }
