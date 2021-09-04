@@ -1,0 +1,31 @@
+// Script assets have changed for v2.3.0 see
+// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+function KillSlimes(){
+	global.activeQuest = 1;
+	switch(global.questStatus[? "TheSlimeQuest"]){
+		case 0:{ // Not Started
+			// Offer Quest
+			newTextBoxes("Fala mano, mata um slime ali pra mim",2,["4:Claro, bora lá","5:Sei não em, perigoso"]);
+		}break;
+		case 1:{ // In progress
+			if (global.slimeKillCounter >= 1){
+				// Complete quest
+				newTextBoxes("Parabéns, você matou uma slime",2);
+				global.questStatus[? "TheSlimeQuest"] = 2;
+				global.activeQuest = 0;
+				global.slimeKillCounter = 0;
+			}else{
+				// Reminder quest
+				newTextBoxes("Normalmente elas habitam a montanha\nseguindo ao norte", 2);
+			}
+		}break;
+		case 2:{ // Completed Quest
+			if(global.slimeKillCounter >= 1){
+				newTextBoxes("Parabéns, você matou uma slime",2);
+				global.questStatus[? "TheSlimeQuest"] = 2;
+				global.activeQuest = 0;
+				global.slimeKillCounter = 0;
+			}
+		}break;
+	}
+}

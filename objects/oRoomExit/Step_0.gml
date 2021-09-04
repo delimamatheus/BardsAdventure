@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 if(instance_exists(oPlayer)) && (position_meeting(oPlayer.x, oPlayer.y,id)){
+	if(oPlayer.state != PlayerStateDead){
 		global.targetRoom = targetRoom;
 		global.targetX = targetX;
 		global.targetY = targetY;
@@ -8,4 +9,5 @@ if(instance_exists(oPlayer)) && (position_meeting(oPlayer.x, oPlayer.y,id)){
 		
 		room_goto(targetRoom);
 		instance_destroy();
+	}
 }

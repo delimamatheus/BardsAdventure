@@ -15,6 +15,9 @@ distanceBonk = 20;
 distanceBonkHeight = 6;
 speedBonk = 1.5;
 z = 0;
+invulnerable = 0;
+flash = 0;
+flashShader = shWhiteFlash;
 
 spriteRoll = sPlayerRoll;
 spriteRun = sPlayerRun;
