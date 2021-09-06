@@ -6,3 +6,5 @@ event_inherited();
 
 image_speed = 0;
 
+if (global.questStatus[? "TheSlimeQuest"] == 0) sprite_index = sBlackSmithQuest;
+

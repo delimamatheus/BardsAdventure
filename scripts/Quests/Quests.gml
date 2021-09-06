@@ -10,22 +10,17 @@ function KillSlimes(){
 		case 1:{ // In progress
 			if (global.slimeKillCounter >= 1){
 				// Complete quest
-				newTextBoxes("Parabéns, você matou uma slime",2);
+				newTextBoxes("Parabéns, você matou uma slime\nAqui está sua recompensa",2);
 				global.questStatus[? "TheSlimeQuest"] = 2;
 				global.activeQuest = 0;
 				global.slimeKillCounter = 0;
+				global.playerMoney += 10;
+				global.playerHealthMax += 1;
 			}else{
 				// Reminder quest
 				newTextBoxes("Normalmente elas habitam a montanha\nseguindo ao norte", 2);
 			}
 		}break;
-		case 2:{ // Completed Quest
-			if(global.slimeKillCounter >= 1){
-				newTextBoxes("Parabéns, você matou uma slime",2);
-				global.questStatus[? "TheSlimeQuest"] = 2;
-				global.activeQuest = 0;
-				global.slimeKillCounter = 0;
-			}
-		}break;
+		default: break;
 	}
 }

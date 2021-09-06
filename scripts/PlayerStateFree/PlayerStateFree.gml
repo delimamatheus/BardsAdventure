@@ -18,17 +18,17 @@ function PlayerStateFree() {
 	PlayerAnimateSprite();
 	
 	//Attack Key Logic
-	if(keyAttack){
+	/*if(keyAttack){
 		state = PlayerStateAttack;
 		stateAttack = AttackSlash;
-	}
+	}*/
 	
 
 	//Activate Key Logic
 	if (keyActivate)
 	{
-		var _activateX = lengthdir_x(10, direction);
-		var _activateY = lengthdir_y(10, direction);
+		var _activateX = lengthdir_x(15, direction);
+		var _activateY = lengthdir_y(15, direction);
 		activate = instance_position(x+_activateX, y+_activateY, pEntity);
 		if (activate == noone or activate.entityActivateScript == -1){
 			state = PlayerStateRoll;
@@ -45,5 +45,25 @@ function PlayerStateFree() {
 		
 	}
 
+	if(keyAttack) and (!keyActivate) and (global.playerEquipped != INSTRUMENTS.NONE){
+		state = PlayerStateAttack;
+		switch(global.playerEquipped){
+			case INSTRUMENTS.WHISTLE: stateAttack = AttackWhistle; break;
+			case INSTRUMENTS.DRUMS: stateAttack = AttackSlash; break;
+			case INSTRUMENTS.GUITAR: break;
+			default: break;
+			
+		}
+	}
+	
+	// Cycle Instruments
+	var _cycleDirection = keySelectItem - keySelectItemDown;
+	if (_cycleDirection != 0){
+		do{
+			global.playerEquipped += _cycleDirection;
+			if (global.playerEquipped < 1) global.playerEquipped = INSTRUMENTS.TYPE_COUNT - 1;
+			if(global.playerEquipped >= INSTRUMENTS.TYPE_COUNT) global.playerEquipped = 1;
+		}until (global.playerItemUnlocked[global.playerEquipped]);
+	}
 
 }

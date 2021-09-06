@@ -1,5 +1,5 @@
 state = PlayerStateFree;
-stateAttack = AttackSlash;
+stateAttack = AttackWhistle;
 hitByAttack = -1;
 lastState = state;
 
@@ -18,6 +18,7 @@ z = 0;
 invulnerable = 0;
 flash = 0;
 flashShader = shWhiteFlash;
+animationEndScript = -1;
 
 spriteRoll = sPlayerRoll;
 spriteRun = sPlayerRun;

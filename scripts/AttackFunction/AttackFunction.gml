@@ -26,6 +26,19 @@ function AttackSlash(){
 	}
 }
 
+function AttackWhistle(){
+	PlayerActOutAnimation(sPlayerWhistleAttack,FireWhistleProjectile);
+}
+
+function FireWhistleProjectile(){
+	with (instance_create_depth(floor(x),floor(y)-10,depth,oWhistleProjectile)){
+		direction = other.direction;
+		direction = CARDINAL_DIR * 90;
+		image_speed = 0;
+		speed = 4;
+	}
+}
+
 function AttackCalculator(argument0){
 	// Attack hitbox and Check hits
 	mask_index = argument0;

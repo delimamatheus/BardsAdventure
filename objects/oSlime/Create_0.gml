@@ -18,3 +18,9 @@ enemyScript[ENEMYSTATE.CHASE] = SlimeChase;
 enemyScript[ENEMYSTATE.ATTACK] = SlimeAttack;
 enemyScript[ENEMYSTATE.HURT] = SlimeHurt;
 enemyScript[ENEMYSTATE.DIE] = SlimeDie;
+
+// Drops
+dropChance = irandom_range(0,100);
+if(dropChance > 50){
+	entityDropList = [oCoin];
+}

@@ -17,4 +17,12 @@ enum ENEMYSTATE{
 	WAIT
 }
 
+enum INSTRUMENTS{
+	NONE,
+	WHISTLE,
+	DRUMS,
+	GUITAR,
+	TYPE_COUNT
+}
+
 }
