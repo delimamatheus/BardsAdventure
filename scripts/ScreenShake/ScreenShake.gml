@@ -1,15 +1,13 @@
-/// @desc ScreenShake(magnitude,frames)
-/// @arg Magnitude sets the strength of the shake (distance range)
-/// @arg Frames sets the length of the shake in frames (60 = 1 second)
-function ScreenShake(argument0, argument1) {
+/// @desc
+function ScreenShake(_magnitude, _frames) {
 
 	with (global.iCamera)
 	{
-		if (argument0 > shakeRemain)
+		if (_magnitude > shakeRemain)
 		{
-			shakeMagnitude = argument0;
+			shakeMagnitude = _magnitude;
 			shakeRemain = shakeMagnitude;
-			shakeLength = argument1;
+			shakeLength = _frames;
 		}
 	}
 

@@ -1,6 +1,5 @@
 /// @desc Update Camera
 
-
 //Update destination
 if (instance_exists(follow))
 {

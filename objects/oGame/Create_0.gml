@@ -22,7 +22,7 @@ global.questStatus[? "TheSlimeQuest"] = 0;
 global.playerEquipped = INSTRUMENTS.WHISTLE;
 global.playerItemUnlocked = array_create(INSTRUMENTS.TYPE_COUNT,false);
 global.playerItemUnlocked[INSTRUMENTS.WHISTLE] = true;
-global.playerItemUnlocked[INSTRUMENTS.DRUMS] = true;
+global.playerItemUnlocked[INSTRUMENTS.DRUMS] = false;
 
 // Camera and UI
 global.iCamera = instance_create_layer(0,0,layer,oCamera);
@@ -34,4 +34,5 @@ global.activeQuest = 0;
 
 surface_resize(application_surface, RESOLUTION_W, RESOLUTION_H);
 
-room_goto(ROOM_START);
+//room_goto(ROOM_START);
+room_goto(rFarm);

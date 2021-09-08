@@ -26,6 +26,16 @@ if(instance_exists(oPlayer)){
 	}
 }
 
+if(bounceCount != 0){
+		bounce += (pi*bounceSpeed);
+		if(bounce > pi){
+			bounce -= pi;
+			bounceHeight *= 0.6;
+			bounceCount--;
+		}
+		z = abs(sin(bounce)) * bounceHeight;
+	}else z = 0;
+
 x += lengthdir_x(spd, direction);
 y += lengthdir_y(spd, direction);
 spd = max(spd-fric,0);

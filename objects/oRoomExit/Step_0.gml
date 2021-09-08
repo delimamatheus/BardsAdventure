@@ -6,8 +6,12 @@ if(instance_exists(oPlayer)) && (position_meeting(oPlayer.x, oPlayer.y,id)){
 		global.targetX = targetX;
 		global.targetY = targetY;
 		global.targetDirection = oPlayer.direction;
+		oCamera.snapToPlayer = true;
 		
 		room_goto(targetRoom);
 		instance_destroy();
+		show_debug_message(targetX);
+		show_debug_message(targetY);
+		show_debug_message(targetRoom);
 	}
 }
