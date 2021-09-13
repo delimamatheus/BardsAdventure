@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sBattery",
-    "path": "sprites/sBattery/sBattery.yy",
+    "name": "sDrum",
+    "path": "sprites/sDrum/sDrum.yy",
   },
   "solid": false,
   "visible": true,
@@ -30,7 +30,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oBattery",
+  "name": "oDrum",
   "tags": [],
   "resourceType": "GMObject",
 }
