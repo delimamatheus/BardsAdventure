@@ -1,4 +1,4 @@
-// Script assets have changed for v2.3.0 see
+ // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function AttackSlash(){
 	
@@ -25,6 +25,28 @@ function AttackSlash(){
 		animationEnd = false;
 	}
 }
+	
+function DrumSpecialAttack(){
+	global.playerAttackType = 2;
+	if(sprite_index != sDrumSpecialAttack){
+		sprite_index = sDrumSpecialAttack;
+		localFrame = 0;
+		image_index = 0;
+		image_speed = 2;
+	}
+	
+	if(!ds_exists(hitByAttack, ds_type_list)) hitByAttack = ds_list_create();
+	ds_list_clear(hitByAttack);
+	
+	AttackCalculator(sDrumSpecialAttackHB);
+	
+	PlayerAnimateSprite();
+	
+	if(animationEnd){
+		state = PlayerStateFree;
+		animationEnd = false;
+	}
+}
 
 function AttackWhistle(){
 	PlayerActOutAnimation(sPlayerWhistleAttack,FireWhistleProjectile);
@@ -39,9 +61,7 @@ function FireWhistleProjectile(){
 	}
 }
 
-function AttackCalculator(argument0){
-	// Attack hitbox and Check hits
-	mask_index = argument0;
+function AttackCalculator(argument0){   
 	var hitByAttackNow = ds_list_create();
 	var hits = instance_place_list(x, y, pEntity, hitByAttackNow, false);
 	if(hits > 0){

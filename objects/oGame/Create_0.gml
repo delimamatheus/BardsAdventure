@@ -13,6 +13,12 @@ global.targetDirection = 0;
 global.playerHealthMax = 3;
 global.playerHealth = global.playerHealthMax;
 global.playerMoney = 0;
+global.playerAttackType = 0;
+/*
+	1 - Whistle
+	2 - Drum
+	3 - Guitar
+*/
 
 //Quests
 global.questStatus = ds_map_create();
@@ -34,5 +40,4 @@ global.activeQuest = 0;
 
 surface_resize(application_surface, RESOLUTION_W, RESOLUTION_H);
 
-//room_goto(ROOM_START);
-room_goto(rFarm);
+room_goto(ROOM_START);

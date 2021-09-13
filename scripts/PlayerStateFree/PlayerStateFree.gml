@@ -17,12 +17,6 @@ function PlayerStateFree() {
 	//Update Image Index
 	PlayerAnimateSprite();
 	
-	//Attack Key Logic
-	/*if(keyAttack){
-		state = PlayerStateAttack;
-		stateAttack = AttackSlash;
-	}*/
-	
 
 	//Activate Key Logic
 	if (keyActivate)
@@ -53,6 +47,16 @@ function PlayerStateFree() {
 			case INSTRUMENTS.GUITAR: break;
 			default: break;
 			
+		}
+	}
+	
+	if(keySpecialAttack) and (!keyActivate) and (global.playerEquipped != INSTRUMENTS.NONE){
+		state = PlayerStateAttack;
+		switch(global.playerEquipped){
+			case INSTRUMENTS.WHISTLE: break; //do nothing
+			case INSTRUMENTS.DRUMS: stateAttack = DrumSpecialAttack; break;
+			case INSTRUMENTS.GUITAR: break;
+			default: break;
 		}
 	}
 	
