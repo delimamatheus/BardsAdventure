@@ -31,8 +31,8 @@
     {"propertyId":{"name":"collectScriptArg","path":"objects/pCollectable/pCollectable.yy",},"objectId":{"name":"pCollectable","path":"objects/pCollectable/pCollectable.yy",},"value":"1","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Drops",
+    "path": "folders/Objects/Entities/Drops.yy",
   },
   "resourceVersion": "1.0",
   "name": "oCoin",

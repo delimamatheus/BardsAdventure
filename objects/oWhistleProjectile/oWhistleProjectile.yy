@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Instruments",
+    "path": "folders/Objects/Entities/Instruments.yy",
   },
   "resourceVersion": "1.0",
   "name": "oWhistleProjectile",

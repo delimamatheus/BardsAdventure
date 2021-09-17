@@ -4,3 +4,4 @@ if(instance_exists(oPlayer)){
 	x = oPlayer.x;
 	y = oPlayer.y;
 }
+// event_perform(ev_step,ev_step_normal);
