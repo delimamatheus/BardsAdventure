@@ -51,10 +51,10 @@ function PlayerStateFree() {
 	}
 	
 	if(keySpecialAttack) and (!keyActivate) and (global.playerEquipped != INSTRUMENTS.NONE){
-		state = PlayerStateAttack;
+		state = PlayerStateSpecialAttack;
 		switch(global.playerEquipped){
-			case INSTRUMENTS.WHISTLE: break; //do nothing
-			case INSTRUMENTS.DRUMS: stateAttack = DrumSpecialAttack; break;
+			case INSTRUMENTS.WHISTLE: stateSpecialAttack = AttackWhistle; break; 
+			case INSTRUMENTS.DRUMS: stateSpecialAttack = DrumSpecialAttack; break;
 			case INSTRUMENTS.GUITAR: break;
 			default: break;
 		}

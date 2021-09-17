@@ -1,5 +1,6 @@
 state = PlayerStateFree;
 stateAttack = AttackWhistle;
+stateSpecialAttack = 0;
 hitByAttack = -1;
 lastState = state;
 
