@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Inventory",
+    "path": "folders/Sprites/Inventory.yy",
   },
   "resourceVersion": "1.0",
   "name": "sInventorySelector",

@@ -10,12 +10,12 @@
   "bbox_left": 0,
   "bbox_right": 234,
   "bbox_top": 0,
-  "bbox_bottom": 202,
+  "bbox_bottom": 143,
   "HTile": false,
   "VTile": false,
   "For3D": false,
   "width": 235,
-  "height": 203,
+  "height": 144,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -69,9 +69,9 @@
   ],
   "nineSlice": {
     "left": 37,
-    "top": 32,
+    "top": 23,
     "right": 37,
-    "bottom": 32,
+    "bottom": 23,
     "guideColour": [
       4294902015,
       4294902015,
@@ -93,8 +93,8 @@
     "resourceType": "GMNineSliceData",
   },
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Inventory",
+    "path": "folders/Sprites/Inventory.yy",
   },
   "resourceVersion": "1.0",
   "name": "sInventory",

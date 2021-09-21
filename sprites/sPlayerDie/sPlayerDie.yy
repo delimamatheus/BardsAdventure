@@ -81,8 +81,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Player",
-    "path": "folders/Sprites/Entities/Player.yy",
+    "name": "StateMachine",
+    "path": "folders/Sprites/Entities/Player/StateMachine.yy",
   },
   "resourceVersion": "1.0",
   "name": "sPlayerDie",

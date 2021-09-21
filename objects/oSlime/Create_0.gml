@@ -24,3 +24,6 @@ dropChance = irandom_range(0,100);
 if(dropChance > 50){
 	entityDropList = [oCoin];
 }
+if(dropChance >=0)/* and (dropChance <=10)*/{
+	entityDropList = [oSlimeDrop]
+}

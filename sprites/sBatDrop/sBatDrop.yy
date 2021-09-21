@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 14,
+  "bbox_right": 9,
   "bbox_top": 0,
-  "bbox_bottom": 14,
+  "bbox_bottom": 7,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 15,
-  "height": 15,
+  "width": 10,
+  "height": 8,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"4d6a991e-f56e-4177-9546-6b2a22972fac","path":"sprites/sItemUIBox/sItemUIBox.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4d6a991e-f56e-4177-9546-6b2a22972fac","path":"sprites/sItemUIBox/sItemUIBox.yy",},"LayerId":{"name":"f59a58e0-504c-4b2b-aafe-8f064ea6c2a8","path":"sprites/sItemUIBox/sItemUIBox.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sItemUIBox","path":"sprites/sItemUIBox/sItemUIBox.yy",},"resourceVersion":"1.0","name":"4d6a991e-f56e-4177-9546-6b2a22972fac","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"9e98871e-06bd-4767-8c0f-4ea3c67ce0d4","path":"sprites/sBatDrop/sBatDrop.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"9e98871e-06bd-4767-8c0f-4ea3c67ce0d4","path":"sprites/sBatDrop/sBatDrop.yy",},"LayerId":{"name":"8542b5fa-6388-48a9-a630-874135480b18","path":"sprites/sBatDrop/sBatDrop.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sBatDrop","path":"sprites/sBatDrop/sBatDrop.yy",},"resourceVersion":"1.0","name":"9e98871e-06bd-4767-8c0f-4ea3c67ce0d4","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sItemUIBox","path":"sprites/sItemUIBox/sItemUIBox.yy",},
+    "spriteId": {"name":"sBatDrop","path":"sprites/sBatDrop/sBatDrop.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"4571e10c-9907-4517-bf67-844f8f37746a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4d6a991e-f56e-4177-9546-6b2a22972fac","path":"sprites/sItemUIBox/sItemUIBox.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"2849e69d-13ec-4212-a328-3413db114d1a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9e98871e-06bd-4767-8c0f-4ea3c67ce0d4","path":"sprites/sBatDrop/sBatDrop.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,22 +58,22 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sItemUIBox","path":"sprites/sItemUIBox/sItemUIBox.yy",},
+    "parent": {"name":"sBatDrop","path":"sprites/sBatDrop/sBatDrop.yy",},
     "resourceVersion": "1.3",
-    "name": "sItemUIBox",
+    "name": "sBatDrop",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f59a58e0-504c-4b2b-aafe-8f064ea6c2a8","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8542b5fa-6388-48a9-a630-874135480b18","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "UI",
-    "path": "folders/Sprites/UI.yy",
+    "name": "Drops",
+    "path": "folders/Sprites/Entities/Drops.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sItemUIBox",
+  "name": "sBatDrop",
   "tags": [],
   "resourceType": "GMSprite",
 }

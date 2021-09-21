@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Drops",
+    "path": "folders/Sprites/Entities/Drops.yy",
   },
   "resourceVersion": "1.0",
   "name": "sCoinUI",

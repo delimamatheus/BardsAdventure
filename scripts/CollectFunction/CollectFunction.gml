@@ -11,3 +11,11 @@ function CollectLife(_amount){
 		// do nothing
 	}
 }
+
+function CollectSlimeDrop(_amount){
+	/*for(var i = 0; i < oInventory.totalSlots; i++){
+		if(oInventory.grid_items[# INFOS.ITEM, i] != -1) and (oInventory.grid_items[# ITEMS.SLIMESDROP, i]){
+			oInventory.grid_items[# INFOS.AMOUNT, i]++;
+		}
+	}*/
+}
