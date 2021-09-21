@@ -1,7 +1,6 @@
-/// @description Insert description here
-// You can write your code in this editor
-if(instance_exists(oPlayer)){
+/// @desc Update to player's new position
+if (instance_exists(oPlayer))
+{
 	x = oPlayer.x;
 	y = oPlayer.y;
 }
-// event_perform(ev_step,ev_step_normal);

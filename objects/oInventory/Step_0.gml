@@ -1,3 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-LoadGame(global.gameSaveSlot);
+if (keyboard_check_pressed(ord("I"))){
+	inventoryOpen = !inventoryOpen;	
+}

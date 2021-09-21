@@ -1,5 +1,6 @@
 /// @desc Update Camera
 
+
 //Update destination
 if (instance_exists(follow))
 {
@@ -22,5 +23,3 @@ y += random_range(-shakeRemain,shakeRemain);
 shakeRemain = max(0, shakeRemain - ((1/shakeLength) * shakeMagnitude));
 
 camera_set_view_pos(cam,x - viewWidthHalf, y - viewHeightHalf);
-
-

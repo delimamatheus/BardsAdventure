@@ -1,44 +1,50 @@
 /// @desc Progress Transition
 if(type == TRANS_TYPE.NONE){
-	with (oPlayer) state = PlayerStateTransition;
+	with (oPlayer) 
+	{
+		if (state != PlayerStateDead) state = PlayerStateTransition;
+	}
 
 	if (leading == OUT)
 	{
-		percent = min (1, percent + 1);
+		percent = min(1, percent + 1);
 		if (percent >= 1) //If screen fully obscured
 		{
-			room_goto(target); 
+			room_goto(target);
 			leading = IN;
 		}
 	}
 	else //leading == IN
 	{
-		percent = max (0, percent - 1);
+		percent = max(0, percent - 1);
 		if (percent <= 0) //If screen fully revealed
 		{
 			with (oPlayer) state = PlayerStateFree;
-			instance_destroy();
+			instance_destroy();	
 		}
 	}
 }else{
-	with (oPlayer) state = PlayerStateTransition;
+	with (oPlayer) 
+	{
+		if (state != PlayerStateDead) state = PlayerStateTransition;
+	}
 
 	if (leading == OUT)
 	{
-		percent = min (1, percent + TRANSITION_SPEED);
+		percent = min(1, percent + TRANSITION_SPEED);
 		if (percent >= 1) //If screen fully obscured
 		{
-			room_goto(target); 
+			room_goto(target);
 			leading = IN;
 		}
 	}
 	else //leading == IN
 	{
-		percent = max (0, percent - TRANSITION_SPEED);
+		percent = max(0, percent - TRANSITION_SPEED);
 		if (percent <= 0) //If screen fully revealed
 		{
 			with (oPlayer) state = PlayerStateFree;
-			instance_destroy();
+			instance_destroy();	
 		}
 	}
 }

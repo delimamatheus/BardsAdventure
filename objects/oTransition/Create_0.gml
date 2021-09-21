@@ -1,4 +1,5 @@
 /// @desc Enums + Setup
+
 enum TRANS_TYPE
 {
 	SLIDE,

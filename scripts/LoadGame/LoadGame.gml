@@ -24,6 +24,8 @@ function LoadGame(_slot){
 		global.targetX = _json[? "targetX"];
 		global.targetY = _json[? "targetY"];
 		global.activeQuest = _json[? "activeQuest"];
+		//global.playerX = _json[? "playerX"];
+		//global.playerY = _json[? "playerY"];
 		
 		// Lists
 		for(var i = 0; i < INSTRUMENTS.TYPE_COUNT; i++){
@@ -34,6 +36,7 @@ function LoadGame(_slot){
 		ds_map_copy(global.questStatus, _json[? "questStatus"]);
 		
 		// Room
+		RoomTransition(TRANS_TYPE.SLIDE, _json[? "room"]);
 		ds_map_destroy(_json);
 		
 		return true;

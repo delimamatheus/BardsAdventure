@@ -14,6 +14,8 @@ function SaveGame(){
 	_map[? "targetX"] = global.targetX;
 	_map[? "targetY"] = global.targetY;
 	_map[? "activeQuest"] = global.activeQuest;
+	//_map[? "playerX"] = global.playerX;
+	//_map[? "playerY"] = global.playerY;
 	
 	var _questMap = ds_map_create();
 	ds_map_copy(_questMap, global.questStatus);

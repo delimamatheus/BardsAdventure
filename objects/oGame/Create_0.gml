@@ -1,4 +1,4 @@
-/// @desc Initialise & Globals
+ /// @desc Initialise & Globals
 randomize();
 
 // General
@@ -24,6 +24,7 @@ global.playerAttackType = 0;
 //Quests
 global.questStatus = ds_map_create();
 global.questStatus[? "TheSlimeQuest"] = 0;
+global.questStatus[? "TheBatQuest"] = 0;
 
 //Items
 global.playerEquipped = INSTRUMENTS.WHISTLE;
@@ -37,7 +38,10 @@ global.iUI = instance_create_layer(0,0,layer,oUI);
 
 // Counters
 global.slimeKillCounter = 0;
+global.batKillCounter = 0;
 global.activeQuest = 0;
+
+global.inventoryOpen = false;
 
 surface_resize(application_surface, RESOLUTION_W, RESOLUTION_H);
 
