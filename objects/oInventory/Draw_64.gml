@@ -4,10 +4,12 @@ var _guiWidth = display_get_gui_width();
 var _guiHeight = display_get_gui_height();
 var _mouseX = device_mouse_x_to_gui(0);
 var _mouseY = device_mouse_y_to_gui(0);
-var slotX = 0;
-var slotY = 0;
 var iX = 0;
 var iY = 0;
+
+var slotX = 0;
+var slotY = 0;
+
 
 if (global.inventoryOpen == true){
 	invX = _guiWidth/2 - inventoryWidth/2;

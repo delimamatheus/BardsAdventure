@@ -22,5 +22,5 @@ grid_items = ds_grid_create(INFOS.COUNTERINFOS,totalSlots);
 ds_grid_set_region(grid_items, 0, 0, 1, totalSlots-1, -1);
 
 
-grid_items[# INFOS.ITEM, 5] = ITEMS.SLIMESDROP;
-grid_items[# INFOS.AMOUNT, 5] =3;
+//grid_items[# INFOS.ITEM, 1] = ITEMS.SLIMESDROP;
+//grid_items[# INFOS.AMOUNT, 1] =3;
