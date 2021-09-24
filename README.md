@@ -17,3 +17,5 @@ Tabela de conteúdos
    * [Tests](#testes)
    * [Tecnologias](#tecnologias)
 <!--te-->
+
+<h2 title="#Sobre">Sobre o jogo</h2>
