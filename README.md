@@ -19,10 +19,10 @@ Tabela de conteúdos
 <!--te-->
 
 <h2 title="Versoes">Versões</h2>
-  <ul>
-    <li> Bard's Adventure v0.1 </li>
-    <li> Tirando o projeto do papel </li>
-  </ul>
+  <dl>
+    <dt> Bard's Adventure v0.1 </dt>
+    <dd> Tirando o projeto do papel </dd>
+  </dl>
 
 
 <h2 title="#Sobre">Sobre o jogo</h2>
