@@ -7,15 +7,15 @@ Tabela de conteúdos
 <!--ts-->
    * [Sobre](#sobre-o-jogo)
    * [Versões](#versões)
-   * [Instalação](#instalacao)
+   * [](#instalacao)
    * [Mecânicas](#mecânicas-de-jogo)
       * [Combate](#combate)
       * [Instrumentos](#instrumentos)
       * [Itens](#itens)
       * [NPCs](#npcs)
       * [Cenário](#cenário)
-   * [Tests](#testes)
-   * [Tecnologias](#tecnologias)
+   * [](#testes)
+   * [](#tecnologias)
 <!--te-->
 
 <h2>Sobre o jogo</h2>
@@ -23,15 +23,15 @@ Tabela de conteúdos
 <p><b>Bard's Adventure</b> é a história de um bardo que vem de uma família muito famosa e prestigiada do continente. Ao nascer, todos que possuem poderes mágicos são destinados a uma arma, no caso dos bardos, instrumentos. Porém o protagonista é destinado a um simples apito, o que deixa sua família furiosa e com vergonha, o exilando em um vilagero pacato e pouco conhecido para que ele não tenha vínculos com a família. Agora já crescido e com poucas habilidades mágicas, o protagonista irá atrás de conhecer e se especializar em todos os instrumentos existentes enquanto se depara com inúmeros desafios e tenta catalogar espécies desconhecidas de inimigos.</p>
 
 <h2>Mecânicas de Jogo</h2>
-  <h3>Combate</h3>
+  <h4>Combate</h4>
     <p> Em Bard's Adventure, o estilo de combate será a partir de instrumentos. O Apito consiste em ataques de longa distância com projétes, já a Bateria, através das baquetas, o personagem consegue desferir ataques corpo a corpo. Os desafios constam de monstros simples como Slimes e Morcegos até entidades mais monstruosas (que ainda serão implementadas) com diferentes estilos de combate e interação. É planejado que alguns monstros sejam mais amigáveis que outras, da mesma forma que alguns sejam extremamente agressivos a ponto de dificultar um pouco a vida do personagem. </p>
-  <h3> Instrumentos </h3>
+  <h4> Instrumentos </h4>
     <p> A ideia é que o jogo tenha o máximo de instrumentos possíveis com suas variações e cada um desempenhe um papel diferente na gameplay. Também terá uma barra de progressão de instrumento para cada um que, através de missões muito específicas com mestres músicos, irá aperfeiçoar os ataques e desbloquear habilidades especiais. </p>
-  <h3> Itens </h3
+  <h4> Itens </h4>
     <p> Os itens são consumíveis ou itens de quest, os consumíveis podem ser utilizados para criar algo novo com NPCs específicos, fortificar algo já existente ou até mesmo para simplesmente vender. Já os itens de quest são primordiais para que se possa seguir no jogo, pois sem eles alguns puzzles podem nunca ser resolvidos. Os itens consumíveis são dropados a partir de monstros, quebrando partes do cenário ou até mesmo simplesmente caídos no chão, os itens de quest ficam em posições específicas esperando serem descobertos.
-  <h3> NPCs </h3>
+  <h4> NPCs </h4>
     <p> O jogo possui NPCs com rotinas específicas para cada um, fazendeiros, pescadores, ferreiros, cozinheiros, mestres músicos etc. Cada NPC desempenha uma função única que o personagem pode explorar como, por exemplo, levar itens consumíveis de comida para o cozinheiro e conseguir um item mais forte que o comum, ou levar um tempeiro e potencializar o item que já tinha.
-  <h3> Cenário </h3>
+  <h4> Cenário </h4>
     <p> Diversos cenários com diferentes decorações e ambientações é o que está presente em Bard's Adventure, cada local possui drops, NPCs e monstros únicos e, claro, muitos novos desafios e enigmas. </p>
 
 <h2>Versões</h2>
