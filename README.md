@@ -32,10 +32,10 @@ Tabela de conteúdos
       <dd> </dd>
     <dt> </dt>
       <dd> </dd>
-    <dt> </dt>
-      <dd> </dd>
-    <dt> </dt>
-      <dd> </dd>
+    <dt> Bard's Adventure v0.2.2 </dt>
+      <dd> Implementando Máquina de Estado aos inimigos <br> Implementando vida ao personagem e aos inimigos <br> Possibilidade de dar dano e eliminar inimigos <br>        Possibilidade do jogador tomar dano e ser eliminado </dd>
+    <dt> Bard's Adventure v0.2.1 </dt>
+      <dd> Implementando transições de sala <br> Adicionando inimigos </dd>
     <dt> Bard's Adventure v0.2 </dt>
       <dd> Implementando combate <br> Ataques corpo a corpo <br> Possibilidade de destruir algumas partes do cenário </dd>
     <dt> Bard's Adventure v0.1.3 </dt>
