@@ -5,10 +5,10 @@
 Tabela de conteúdos
 =================
 <!--ts-->
-   * [Versões](#Versoes)
    * [Sobre](#Sobre)
+   * [Versões](/BardsAdventure/README.md#Versoes)
    * [Instalação](#instalacao)
-   * [Mecânicas](#como-usar)
+   * [Mecânicas](#Mecanicas)
       * [Combate](#pre-requisitos)
       * [Itens](#local-files)
       * [Instrumentos](#remote-files)
@@ -18,7 +18,13 @@ Tabela de conteúdos
    * [Tecnologias](#tecnologias)
 <!--te-->
 
-<h2 title="Versoes">Versões</h2>
+<h2 title="#Sobre">Sobre o jogo</h2>
+
+<p><b>Bard's Adventure</b> é a história de um bardo que vem de uma família muito famosa e prestigiada do continente. Ao nascer, todos que possuem poderes mágicos são destinados a uma arma, no caso dos bardos, instrumentos. Porém o protagonista é destinado a um simples apito, o que deixa sua família furiosa e com vergonha, o exilando em um vilagero pacato e pouco conhecido para que ele não tenha vínculos com a família. Agora já crescido e com poucas habilidades mágicas, o protagonista irá atrás de conhecer e se especializar em todos os instrumentos existentes enquanto se depara com inúmeros desafios e tenta catalogar espécies desconhecidas de inimigos.</p>
+
+<h2 title="#Mecanicas"</h2>
+
+<h2 title="#Versoes">Versões</h2>
   <dl>
     <dt> Bard's Adventure v0.3.3 </dt>
       <dd> <b> Em Progresso </b> </dd>
@@ -50,9 +56,4 @@ Tabela de conteúdos
       <dd> Tirando o projeto do papel </dd>
   </dl>
 
-
-<h2 title="#Sobre">Sobre o jogo</h2>
-
-<p><b>Bard's Adventure</b> é a história de um bardo que vem de uma família muito famosa e prestigiada do continente. Ao nascer, todos que possuem poderes mágicos são destinados a uma arma, no caso dos bardos, instrumentos. Porém o protagonista é destinado a um simples apito, o que deixa sua família furiosa e com vergonha, o exilando em um vilagero pacato e pouco conhecido para que ele não tenha vínculos com a família. Agora já crescido e com poucas habilidades mágicas, o protagonista irá atrás de conhecer e se especializar em todos os instrumentos existentes enquanto se depara com inúmeros desafios e tenta catalogar espécies desconhecidas de inimigos.</p>
-
-<h2 title="#
+           
