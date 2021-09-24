@@ -23,8 +23,7 @@ Tabela de conteúdos
     <dt> Bard's Adventure v0.1 </dt>
       <dd> Tirando o projeto do papel </dd>
     <dt> Bard's Adventure v0.2.1 </dt>
-      <dd> Implementando animações para movimentação </dd>
-      <dd> Implementando colisões </dd>
+      <dd> Implementando animações para movimentação <br> Implementando colisões </dd>
     <dt> Bard's Adventure v0.2 </dt>
       <dd> Imeplentando movimentações básicas </dd>
     <dt> Bard's Adventure v0.1 </dt>
