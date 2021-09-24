@@ -19,11 +19,17 @@ Tabela de conteúdos
 <!--te-->
 
 <h2 title="Versoes">Versões</h2>
-  
+  * a
+  * a
+  * a
+  * a
+  * a
+  * Bard's Adventure v0.1
+     *   Tirando o projeto do papel
 
 
 <h2 title="#Sobre">Sobre o jogo</h2>
 
-<p><b>Bard'S Adventure</b> é a história de um bardo que vem de uma família muito famosa e prestigiada do continente. Ao nascer, todos que possuem poderes mágicos são destinados a uma arma, no caso dos bardos, instrumentos. Porém o protagonista é destinado a um simples apito, o que deixa sua família furiosa e com vergonha, o exilando em um vilagero pacato e pouco conhecido para que ele não tenha vínculos com a família. Agora já crescido e com poucas habilidades mágicas, o protagonista irá atrás de conhecer e se especializar em todos os instrumentos existentes enquanto se depara com inúmeros desafios e tenta catalogar espécies desconhecidas de inimigos.</p>
+<p><b>Bard's Adventure</b> é a história de um bardo que vem de uma família muito famosa e prestigiada do continente. Ao nascer, todos que possuem poderes mágicos são destinados a uma arma, no caso dos bardos, instrumentos. Porém o protagonista é destinado a um simples apito, o que deixa sua família furiosa e com vergonha, o exilando em um vilagero pacato e pouco conhecido para que ele não tenha vínculos com a família. Agora já crescido e com poucas habilidades mágicas, o protagonista irá atrás de conhecer e se especializar em todos os instrumentos existentes enquanto se depara com inúmeros desafios e tenta catalogar espécies desconhecidas de inimigos.</p>
 
 <h2 title="#
