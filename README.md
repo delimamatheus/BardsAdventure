@@ -6,7 +6,7 @@ Tabela de conteúdos
 =================
 <!--ts-->
    * [Sobre](#Sobre)
-   * [Versões](/BardsAdventure/README.md#Versoes)
+   * [Versões](/BardsAdventure/blob/master/README.md)
    * [Instalação](#instalacao)
    * [Mecânicas](#Mecanicas)
       * [Combate](#pre-requisitos)
