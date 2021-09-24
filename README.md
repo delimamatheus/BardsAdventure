@@ -20,8 +20,8 @@ Tabela de conteúdos
 
 <h2 title="Versoes">Versões</h2>
   <dl>
-    <dt> Bard's Adventure v0.1 </dt>
-      <dd> Tirando o projeto do papel </dd>
+    <dt> Bard's Adventure v0.2.2 </dt>
+      <dd> Implementando câmera <br> Implementando Máquinas de Estado para o personagem </dd>
     <dt> Bard's Adventure v0.2.1 </dt>
       <dd> Implementando animações para movimentação <br> Implementando colisões </dd>
     <dt> Bard's Adventure v0.2 </dt>
