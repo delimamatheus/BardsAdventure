@@ -6,15 +6,13 @@ Tabela de conteúdos
 =================
 <!--ts-->
    * [Sobre](#sobre-o-jogo)
-   * [Versões](#versões)
-   * [](#instalacao)
    * [Mecânicas](#mecânicas-de-jogo)
       * [Combate](#combate)
       * [Instrumentos](#instrumentos)
       * [Itens](#itens)
       * [NPCs](#npcs)
       * [Cenário](#cenário)
-   * [](#testes)
+   * [Versões](#versões)
    * [](#tecnologias)
 <!--te-->
 
