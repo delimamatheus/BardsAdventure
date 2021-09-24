@@ -19,8 +19,8 @@ Tabela de conteúdos
 <!--te-->
 
 <h2 title="Versoes">Versões</h2>
-    -Bard's Adventure v0.1
-     -Tirando o projeto do papel
+    * Bard's Adventure v0.1
+      * Tirando o projeto do papel
 
 
 <h2 title="#Sobre">Sobre o jogo</h2>
