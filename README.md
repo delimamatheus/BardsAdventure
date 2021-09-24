@@ -20,13 +20,33 @@ Tabela de conteúdos
 
 <h2 title="Versoes">Versões</h2>
   <dl>
-    <dt> Bard's Adventure v0.2.2 </dt>
-      <dd> Implementando câmera <br> Implementando Máquinas de Estado para o personagem </dd>
-    <dt> Bard's Adventure v0.2.1 </dt>
-      <dd> Implementando animações para movimentação <br> Implementando colisões </dd>
+    <dt> </dt>
+      <dd> </dd>
+    <dt> </dt>
+      <dd> </dd>
+    <dt> </dt>
+      <dd> </dd>
+    <dt> </dt>
+      <dd> </dd>
+    <dt> </dt>
+      <dd> </dd>
+    <dt> </dt>
+      <dd> </dd>
+    <dt> </dt>
+      <dd> </dd>
+    <dt> </dt>
+      <dd> </dd>
     <dt> Bard's Adventure v0.2 </dt>
-      <dd> Imeplentando movimentações básicas </dd>
+      <dd> Implementando combate <br> Ataques corpo a corpo <br> Possibilidade de destruir algumas partes do cenário </dd>
+    <dt> Bard's Adventure v0.1.3 </dt>
+      <dd> Implementando NPCs <br> Implementando diálogos </dd>
+    <dt> Bard's Adventure v0.1.2 </dt>
+      <dd> Implementando câmera <br> Implementando Máquinas de Estado para o personagem </dd>
+    <dt> Bard's Adventure v0.1.1 </dt>
+      <dd> Implementando animações para movimentação <br> Implementando colisões </dd>
     <dt> Bard's Adventure v0.1 </dt>
+      <dd> Imeplentando movimentações básicas </dd>
+    <dt> Bard's Adventure v0.0 </dt>
       <dd> Tirando o projeto do papel </dd>
   </dl>
 
