@@ -2,7 +2,7 @@
 
 Desenvolvimento de um jogo para o TCC de Engenharia de Software
 
-Tabela de conteúdos
+## Tabela de conteúdos
 =================
 <!--ts-->
    * [Sobre](#sobre-o-jogo)
