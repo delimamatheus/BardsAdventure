@@ -32,9 +32,8 @@ Desenvolvimento de um jogo para o TCC de Engenharia de Software
   Diversos cenários com diferentes decorações e ambientações é o que está presente em Bard's Adventure, cada local possui drops, NPCs e monstros únicos e, claro, muitos novos desafios e enigmas.  
 
 ## Versões
-  <dl>
-    <dt> Bard's Adventure v0.3.3 </dt>
-      <dd href="#tasks"> <b> Em Progresso </b> </dd>
+* Bard's Adventure v0.3.3
+     * Em Progresso
     <dt> Bard's Adventure v0.3.2 </dt>
       <dd> Adição de Drops para os monstros <b>Slime</b> e <b>Morcego</b> <br> Implementando inventário </dd>
     <dt> Bard's Adventure v0.3.1 </dt>
