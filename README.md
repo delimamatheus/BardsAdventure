@@ -33,37 +33,54 @@ Desenvolvimento de um jogo para o TCC de Engenharia de Software
 
 ## Versões
 * Bard's Adventure v0.3.3
-     * Em Progresso
-    <dt> Bard's Adventure v0.3.2 </dt>
-      <dd> Adição de Drops para os monstros <b>Slime</b> e <b>Morcego</b> <br> Implementando inventário </dd>
-    <dt> Bard's Adventure v0.3.1 </dt>
-      <dd> Adição de um Menu para quando o jogo estiver Pausado <br> Adição de uma página inicial de título com a opção de iniciar ou continuar o jogo </dd>
-    <dt> Bard's Adventure v0.3 </dt>
-      <dd> Implementando Save/Load </dd>
-    <dt> Bard's Adventure v0.2.4 </dt>
-      <dd> Adição de nova arma principal (Apito) <br> Combate a distância <br> Limitando combate corpo a corpo (Bateria) somente quando a mesma for desbloqueada <br> Adição de um novo inimigo (Morcego) </dd>
-    <dt> Bard's Adventure v0.2.3 </dt>
-      <dd> Implementando missões <br> Chance de dropar itens ao destruir partes do cenário <br> Adição da vida e moedas do personagem na tela <br> Adição de um seletor de armas utilizáveis </dd>
-    <dt> Bard's Adventure v0.2.2 </dt>
-      <dd> Implementando Máquina de Estado aos inimigos <br> Implementando vida ao personagem e aos inimigos <br> Possibilidade de dar dano e eliminar inimigos <br>        Possibilidade do jogador tomar dano e ser eliminado </dd>
-    <dt> Bard's Adventure v0.2.1 </dt>
-      <dd> Implementando transições de sala <br> Adicionando inimigos (Slime) </dd>
-    <dt> Bard's Adventure v0.2 </dt>
-      <dd> Implementando combate <br> Ataques corpo a corpo (Bateria) <br> Possibilidade de destruir algumas partes do cenário </dd>
-    <dt> Bard's Adventure v0.1.3 </dt>
-      <dd> Implementando NPCs <br> Implementando diálogos </dd>
-    <dt> Bard's Adventure v0.1.2 </dt>
-      <dd> Implementando câmera <br> Implementando Máquinas de Estado para o personagem <br> Implementando Pause </dd>
-    <dt> Bard's Adventure v0.1.1 </dt>
-      <dd> Implementando animações para movimentação <br> Implementando colisões </dd>
-    <dt> Bard's Adventure v0.1 </dt>
-      <dd> Imeplentando movimentações básicas </dd>
-    <dt> Bard's Adventure v0.0 </dt>
-      <dd> Tirando o projeto do papel </dd>
-  </dl>
+     * [Em Progresso](#tasklist)
+* Bard's Adventure v0.3.2
+     * Adição de Drops para os monstros **Slime** e **Morcego**
+     * Adição de inventário
+* Bard's Adventure v0.3.1
+     * Adição de um Menu para quando o jogo estiver Pausado
+     * Adição de uma página inicial de título com a opção de iniciar ou continuar o jogo
+* Bard's Adventure v0.3
+     * Implementação de Save/Load
+* Bard's Adventure v0.2.4
+     * Adição de arma principal (Apito)
+     * Combate a distância
+     * Mudança de arma para desbloqueável (Bateria)
+     * Adição de inimigo (Morcego)
+* Bard's Adventure v0.2.3
+     * Adição de Missão
+     * Chance de dropar itens ao destruir partes do cenário
+     * Adição da vida e moedas do personagem na tela
+     * Adição de um seletor de armas utilizáveis
+* Bard's Adventure v0.2.2
+     * Implementação de Máquina de Estado aos inimigos
+     * Adição de vida ao personagem e aos inimigos
+     * Possibilidade de dar dano e eliminar inimigos
+     * Possibilidade do jogador levar dano e ser eliminado
+* Bard's Adventure v0.2.1
+     * Implementação de transições de sala
+     * Adição de inimigo (Slime)
+* Bard's Adventure v0.2
+     * Implementação do combate
+     * Ataques corpo a corpo (Bateria)
+     * Possibilidade de destruir algumas partes do cenário
+* Bard's Adventure v0.1.3
+     * Implementação de NPC (Ferreiro)
+     * Implementação de diálogos básicos
+* Bard's Adventure v0.1.2
+     * Implementação da câmera
+     * Implementação de Máquinas de Estado para o personagem
+     * Implementação de Pause
+* Bard's Adventure v0.1.1
+     * Implementação animações para movimentação
+     * Implementando colisões
+* Bard's Adventure v0.1
+     * Implementação de movimentações básicas
+* Bard's Adventure v0.0
+     * Tirando o projeto do papel
   
-<h2> Tasklist </h2>
-  <h4 title="#Tasks">Bard's Adventure v0.3.3</h4>
+## Tasklist
+  ### Bard's Adventure v0.3.3
   - [x] Melhoria no sistema de Chase (Slime) <br>
   - [ ] Melhoria no sistema de Chase (Bat)<br>
   - [ ] Melhoria no sistema de Ataque (Bat)<br>
