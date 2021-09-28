@@ -65,7 +65,7 @@ Tabela de conteúdos
   </dl>
   
 <h2> Tasklist </h2>
-  <h4>Bard's Adventure v0.3.3</h4>
+  ###Bard's Adventure v0.3.3
   - [x] Melhoria no sistema de Chase (Slime)
   - [ ] Melhoria no sistema de Chase (Bat)
   - [ ] Melhoria no sistema de Ataque (Bat)
