@@ -35,7 +35,7 @@ Tabela de conteúdos
 <h2>Versões</h2>
   <dl>
     <dt> Bard's Adventure v0.3.3 </dt>
-      <dd> <b> [Em Progresso](#tasklist) </b> </dd>
+      <dd href="#tasks"> <b> Em Progresso </b> </dd>
     <dt> Bard's Adventure v0.3.2 </dt>
       <dd> Adição de Drops para os monstros <b>Slime</b> e <b>Morcego</b> <br> Implementando inventário </dd>
     <dt> Bard's Adventure v0.3.1 </dt>
@@ -65,12 +65,12 @@ Tabela de conteúdos
   </dl>
   
 <h2> Tasklist </h2>
-  ###Bard's Adventure v0.3.3
-  - [x] Melhoria no sistema de Chase (Slime)
-  - [ ] Melhoria no sistema de Chase (Bat)
-  - [ ] Melhoria no sistema de Ataque (Bat)
-  - [ ] Melhoria nos sprites (Slime)
-  - [ ] Novo instrumento (Guitarra)
-  - [ ] Ataques normais (Guitarra)
-  - [ ] Ataque especial (Guitarra)
+  <h4 title="#Tasks">Bard's Adventure v0.3.3</h4>
+  - [x] Melhoria no sistema de Chase (Slime) <br>
+  - [ ] Melhoria no sistema de Chase (Bat)<br>
+  - [ ] Melhoria no sistema de Ataque (Bat)<br>
+  - [ ] Melhoria nos sprites (Slime)<br>
+  - [ ] Novo instrumento (Guitarra)<br>
+  - [ ] Ataques normais (Guitarra)<br>
+  - [ ] Ataque especial (Guitarra)<br>
            
