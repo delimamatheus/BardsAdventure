@@ -73,7 +73,7 @@ Desenvolvimento de um jogo para o TCC de Engenharia de Software
      * Implementação de Pause
 * Bard's Adventure v0.1.1
      * Implementação animações para movimentação
-     * Implementando colisões
+     * Adição de colisões
 * Bard's Adventure v0.1
      * Implementação de movimentações básicas
 * Bard's Adventure v0.0
