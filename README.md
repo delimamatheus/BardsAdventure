@@ -1,6 +1,6 @@
-<h1 align="center"> Bard's Adventure </h1>
+#Bard's Adventure
 
-<p align="center"> Desenvolvimento de um jogo para o TCC de Engenharia de Software </p>
+Desenvolvimento de um jogo para o TCC de Engenharia de Software
 
 Tabela de conteúdos
 =================
@@ -13,12 +13,12 @@ Tabela de conteúdos
       * [NPCs](#npcs)
       * [Cenário](#cenário)
    * [Versões](#versões)
-   * [](#tecnologias)
+   * [TaskList](#tasklist)
 <!--te-->
 
-<h2>Sobre o jogo</h2>
+##Sobre o jogo
 
-<p><b>Bard's Adventure</b> é a história de um bardo que vem de uma família muito famosa e prestigiada do continente. Ao nascer, todos que possuem poderes mágicos são destinados a uma arma, no caso dos bardos, instrumentos. Porém o protagonista é destinado a um simples apito, o que deixa sua família furiosa e com vergonha, o exilando em um vilagero pacato e pouco conhecido para que ele não tenha vínculos com a família. Agora já crescido e com poucas habilidades mágicas, o protagonista irá atrás de conhecer e se especializar em todos os instrumentos existentes enquanto se depara com inúmeros desafios e tenta catalogar espécies desconhecidas de inimigos.</p>
+**Bard's Adventure** é a história de um bardo que vem de uma família muito famosa e prestigiada do continente. Ao nascer, todos que possuem poderes mágicos são destinados a uma arma, no caso dos bardos, instrumentos. Porém o protagonista é destinado a um simples apito, o que deixa sua família furiosa e com vergonha, o exilando em um vilagero pacato e pouco conhecido para que ele não tenha vínculos com a família. Agora já crescido e com poucas habilidades mágicas, o protagonista irá atrás de conhecer e se especializar em todos os instrumentos existentes enquanto se depara com inúmeros desafios e tenta catalogar espécies desconhecidas de inimigos.
 
 <h2>Mecânicas de Jogo</h2>
   <h4>Combate</h4>
