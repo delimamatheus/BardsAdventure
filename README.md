@@ -12,6 +12,7 @@ Desenvolvimento de um jogo para o TCC de Engenharia de Software
       * [Itens](#itens)
       * [NPCs](#npcs)
       * [Cenário](#cenário)
+   * [Tecnologias](#tecnologias) 
    * [Versões](#versões)
    * [TaskList](#tasklist)
 <!--te-->
@@ -31,6 +32,8 @@ Desenvolvimento de um jogo para o TCC de Engenharia de Software
   O jogo possui NPCs com rotinas específicas para cada um, fazendeiros, pescadores, ferreiros, cozinheiros, mestres músicos etc. Cada NPC desempenha uma função única que o personagem pode explorar como, por exemplo, levar itens consumíveis de comida para o cozinheiro e conseguir um item mais forte que o comum, ou levar um tempeiro e potencializar o item que já tinha.  
   #### Cenário
   Diversos cenários com diferentes decorações e ambientações é o que está presente em Bard's Adventure, cada local possui drops, NPCs e monstros únicos e, claro, muitos novos desafios e enigmas.  
+
+## Tecnologias
 
 ## Versões
 * Bard's Adventure v0.3.3
@@ -91,3 +94,4 @@ Desenvolvimento de um jogo para o TCC de Engenharia de Software
   - [ ] Ataque especial (Guitarra)
   - [ ] Ataque especial (Apito)
            
+## Autor
