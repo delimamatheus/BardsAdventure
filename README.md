@@ -67,10 +67,10 @@ Tabela de conteúdos
 <h2> Tasklist </h2>
   <h4>Bard's Adventure v0.3.3</h4>
   - [x] Melhoria no sistema de Chase (Slime)
-  - [] Melhoria no sistema de Chase (Bat)
-  - [] Melhoria no sistema de Ataque (Bat)
-  - [] Melhoria nos sprites (Slime)
-  - [] Novo instrumento (Guitarra)
-  - [] Ataques normais (Guitarra)
-  - [] Ataque especial (Guitarra)
+  - [ ] Melhoria no sistema de Chase (Bat)
+  - [ ] Melhoria no sistema de Ataque (Bat)
+  - [ ] Melhoria nos sprites (Slime)
+  - [ ] Novo instrumento (Guitarra)
+  - [ ] Ataques normais (Guitarra)
+  - [ ] Ataque especial (Guitarra)
            
