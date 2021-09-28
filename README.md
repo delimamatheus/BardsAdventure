@@ -1,6 +1,7 @@
 # Bard's Adventure
 
-Desenvolvimento de um jogo para o TCC de Engenharia de Software
+Desenvolvimento de um jogo para o TCC de Engenharia de Software  
+**EM ANDAMENTO**
 
 ## Tabela de conteúdos
 <!--ts-->
