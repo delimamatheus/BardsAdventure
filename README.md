@@ -21,7 +21,7 @@ Desenvolvimento de um jogo para o TCC de Engenharia de Software
 
 ## Mecânicas de Jogo
   **Combate**  
-    Em Bard's Adventure, o estilo de combate será a partir de instrumentos. O Apito consiste em ataques de longa distância com projétes, já a Bateria, através das baquetas, o personagem consegue desferir ataques corpo a corpo. Os desafios constam de monstros simples como Slimes e Morcegos até entidades mais monstruosas (que ainda serão implementadas) com diferentes estilos de combate e interação. É planejado que alguns monstros sejam mais amigáveis que outras, da mesma forma que alguns sejam extremamente agressivos a ponto de dificultar um pouco a vida do personagem.
+        Em Bard's Adventure, o estilo de combate será a partir de instrumentos. O Apito consiste em ataques de longa distância com projétes, já a Bateria, através das baquetas, o personagem consegue desferir ataques corpo a corpo. Os desafios constam de monstros simples como Slimes e Morcegos até entidades mais monstruosas (que ainda serão implementadas) com diferentes estilos de combate e interação. É planejado que alguns monstros sejam mais amigáveis que outras, da mesma forma que alguns sejam extremamente agressivos a ponto de dificultar um pouco a vida do personagem.
   Instrumentos
     A ideia é que o jogo tenha o máximo de instrumentos possíveis com suas variações e cada um desempenhe um papel diferente na gameplay. Também terá uma barra de progressão de instrumento para cada um que, através de missões muito específicas com mestres músicos, irá aperfeiçoar os ataques e desbloquear habilidades especiais.
   Itens
