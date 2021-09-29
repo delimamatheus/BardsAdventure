@@ -123,7 +123,7 @@ function SlimeWander(){
 
 function BatChase(){
 	sprite_index = sprMove;
-	if(instance_exists(target)){
+	if(instance_exists(target)) and (point_distance(x, y, target.x, target.y) <= enemyAggroRadius){
 		xTo = target.x;
 		yTo = target.y;
 		
@@ -141,6 +141,8 @@ function BatChase(){
 		
 		// Collide and Move
 		EnemyTileCollision();
+	}else{
+		state = ENEMYSTATE.WANDER;	
 	}
 }
 

@@ -41,6 +41,7 @@ function AttackGuitar(){
 	}
 	
 	AttackCalculator(sPlayerAttackGuitarHB);
+	
 	//Update Sprite
 	PlayerAnimateSprite();
 	

@@ -16,3 +16,20 @@ function DrumSpecialAttack(){
 		animationEnd = false;
 	}
 }
+
+function GuitarSpecialAttack(){
+	if(sprite_index != sGuitarSpecialAttack){
+		sprite_index = sGuitarSpecialAttack;
+		localFrame = 0;
+		image_index = 0;
+	}
+	
+	PlayerAnimateSprite();
+	
+	AttackCalculator(sGuitarSpecialAttackHB);
+	
+	if(animationEnd){
+		state = PlayerStateFree;
+		animationEnd = false;
+	}
+}
