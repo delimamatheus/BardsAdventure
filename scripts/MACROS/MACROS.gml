@@ -11,8 +11,6 @@ function MACROS() {
 #macro OUT 0
 #macro IN 1
 
-#macro INVENTORY_SLOTS 15
-
 enum ENEMYSTATE{
 	IDLE,
 	WANDER,

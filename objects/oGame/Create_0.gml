@@ -31,6 +31,7 @@ global.playerEquipped = INSTRUMENTS.WHISTLE;
 global.playerItemUnlocked = array_create(INSTRUMENTS.TYPE_COUNT,false);
 global.playerItemUnlocked[INSTRUMENTS.WHISTLE] = true;
 global.playerItemUnlocked[INSTRUMENTS.DRUMS] = false;
+global.playerItemUnlocked[INSTRUMENTS.GUITAR] = true;
 
 // Camera and UI
 global.iCamera = instance_create_layer(0,0,layer,oCamera);

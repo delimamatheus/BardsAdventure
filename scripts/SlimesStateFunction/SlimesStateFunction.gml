@@ -39,7 +39,7 @@ function SlimeAttack(){
 
 function SlimeChase(){
 	sprite_index = sprMove;
-	if(instance_exists(target)){
+	if(instance_exists(target)) and (point_distance(x, y, target.x, target.y) <= enemyAggroRadius){
 		xTo = target.x;
 		yTo = target.y;
 		
@@ -57,6 +57,8 @@ function SlimeChase(){
 		
 		// Collide and Move
 		EnemyTileCollision();
+	}else{
+		state = ENEMYSTATE.WANDER;
 	}
 	
 	// Check if close enough to attack
@@ -113,8 +115,8 @@ function SlimeWander(){
 	if (++aggroCheck > aggroCheckDuration){
 		aggroCheck = 0;
 		if (instance_exists(oPlayer)) and (point_distance(x,y,oPlayer.x,oPlayer.y) <= enemyAggroRadius){
-				state = ENEMYSTATE.CHASE;
-				target = oPlayer;
+			state = ENEMYSTATE.CHASE;
+			target = oPlayer;
 		}
 	}
 }

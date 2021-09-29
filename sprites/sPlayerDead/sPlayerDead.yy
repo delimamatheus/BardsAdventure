@@ -83,7 +83,7 @@
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
     "xorigin": 15,
-    "yorigin": 26,
+    "yorigin": 24,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sPlayerDead","path":"sprites/sPlayerDead/sPlayerDead.yy",},

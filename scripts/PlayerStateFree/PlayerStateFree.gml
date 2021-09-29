@@ -25,8 +25,11 @@ function PlayerStateFree() {
 		var _activateY = lengthdir_y(15, direction);
 		activate = instance_position(x+_activateX, y+_activateY, pEntity);
 		if (activate == noone or activate.entityActivateScript == -1){
+			if (alarm[0] <= 0){
+			alarm[0] = 120;
 			state = PlayerStateRoll;
 			moveDistanceRemaining = distanceRoll;
+			}
 		}else{
 			ScriptExecuteArray(activate.entityActivateScript, activate.entityActivateArgs);
 			if(activate.entityNPC){
@@ -44,7 +47,7 @@ function PlayerStateFree() {
 		switch(global.playerEquipped){
 			case INSTRUMENTS.WHISTLE: stateAttack = AttackWhistle; break;
 			case INSTRUMENTS.DRUMS: stateAttack = AttackSlash; break;
-			case INSTRUMENTS.GUITAR: break;
+			case INSTRUMENTS.GUITAR: stateAttack = AttackGuitar; break;
 			default: break;
 			
 		}

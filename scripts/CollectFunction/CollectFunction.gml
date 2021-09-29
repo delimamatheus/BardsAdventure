@@ -25,3 +25,17 @@ function CollectSlimeDrop(_amount){
 		}
 	}
 }
+
+function CollectBatDrop(_amount){
+	_hasItem = false;
+	for(var i = 0; i < oInventory.totalSlots; i++){
+		oInventory.grid_items[# INFOS.AMOUNT, i] = 0;
+		if(oInventory.grid_items[# INFOS.ITEM, i] == -1) and (_hasItem == false){
+			oInventory.grid_items[# INFOS.ITEM, i] = ITEMS.BATDROP;
+			oInventory.grid_items[# INFOS.AMOUNT, i]++;
+			_hasItem = true;
+		}else if(oInventory.grid_items[# INFOS.ITEM, i] == ITEMS.BATDROP){
+			oInventory.grid_items[# INFOS.AMOUNT, i]++;
+		}
+	}
+}

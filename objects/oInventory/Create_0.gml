@@ -18,6 +18,9 @@ buffer = 1 * scale;
 inventoryWidth = sprite_get_width(sInventory) * scale;
 inventoryHeight = sprite_get_height(sInventory) * scale;
 
+selectedItem = -1;
+selectedPosition = -1;
+
 grid_items = ds_grid_create(INFOS.COUNTERINFOS,totalSlots);
 ds_grid_set_region(grid_items, 0, 0, 1, totalSlots-1, -1);
 

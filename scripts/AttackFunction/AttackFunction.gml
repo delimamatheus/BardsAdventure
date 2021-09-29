@@ -25,6 +25,30 @@ function AttackSlash(){
 		animationEnd = false;
 	}
 }
+	
+function AttackGuitar(){
+	// Attack starts
+	if(sprite_index != sPlayerAttackGuitar){
+		
+		// Set up animation
+		sprite_index = sPlayerAttackGuitar;
+		localFrame= 0;
+		image_index = 0;
+		
+		//Clear hit list
+		if(!ds_exists(hitByAttack, ds_type_list)) hitByAttack = ds_list_create();
+		ds_list_clear(hitByAttack);
+	}
+	
+	AttackCalculator(sPlayerAttackGuitarHB);
+	//Update Sprite
+	PlayerAnimateSprite();
+	
+	if(animationEnd){
+		state = PlayerStateFree;
+		animationEnd = false;
+	}
+}
 
 function AttackWhistle(){
 	PlayerActOutAnimation(sPlayerWhistleAttack,FireWhistleProjectile);

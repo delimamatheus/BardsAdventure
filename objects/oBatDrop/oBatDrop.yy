@@ -27,7 +27,7 @@
   "properties": [],
   "overriddenProperties": [
     {"propertyId":{"name":"entityShadow","path":"objects/pEntity/pEntity.yy",},"objectId":{"name":"pEntity","path":"objects/pEntity/pEntity.yy",},"value":"False","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"collectScript","path":"objects/pCollectable/pCollectable.yy",},"objectId":{"name":"pCollectable","path":"objects/pCollectable/pCollectable.yy",},"value":"CollectCoins","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"collectScript","path":"objects/pCollectable/pCollectable.yy",},"objectId":{"name":"pCollectable","path":"objects/pCollectable/pCollectable.yy",},"value":"CollectBatDrop","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"collectScriptArg","path":"objects/pCollectable/pCollectable.yy",},"objectId":{"name":"pCollectable","path":"objects/pCollectable/pCollectable.yy",},"value":"1","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
