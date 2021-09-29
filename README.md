@@ -86,10 +86,10 @@ Desenvolvimento de um jogo para o TCC de Engenharia de Software
 ## Tasklist
   ### Bard's Adventure v0.3.3
   - [x] Melhoria no sistema de Chase (Slime)
-  - [ ] Melhoria no sistema de Chase (Bat)
+  - [x] Melhoria no sistema de Chase (Bat)
   - [ ] Melhoria no sistema de Ataque (Bat)
   - [ ] Melhoria nos sprites (Slime)
-  - [ ] Novo instrumento (Guitarra)
+  - [x] Novo instrumento (Guitarra)
   - [ ] Ataques normais (Guitarra)
   - [ ] Ataque especial (Guitarra)
   - [ ] Ataque especial (Apito)
