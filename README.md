@@ -90,7 +90,7 @@ Desenvolvimento de um jogo para o TCC de Engenharia de Software
   - [ ] Melhoria no sistema de Ataque (Bat)
   - [ ] Melhoria nos sprites (Slime)
   - [x] Novo instrumento (Guitarra)
-  - [ ] Ataques normais (Guitarra)
+  - [x] Ataques normais (Guitarra)
   - [ ] Ataque especial (Guitarra)
   - [ ] Ataque especial (Apito)
            
