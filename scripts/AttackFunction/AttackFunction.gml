@@ -28,26 +28,42 @@ function AttackSlash(){
 	
 function AttackGuitar(){
 	// Attack starts
-	if(sprite_index != sPlayerAttackGuitar){
+	if(keyboard_check(keyAttack)){
+		if(sprite_index != sPlayerAttackGuitar){
 		
-		// Set up animation
-		sprite_index = sPlayerAttackGuitar;
-		localFrame= 0;
-		image_index = 0;
+			// Set up animation
+			sprite_index = sPlayerAttackGuitar;
+			localFrame= 0;
+			image_index = 0;
+			PlayerAnimateSprite();
 		
-		//Clear hit list
-		if(!ds_exists(hitByAttack, ds_type_list)) hitByAttack = ds_list_create();
-		ds_list_clear(hitByAttack);
-	}
+			//Clear hit list
+			if(!ds_exists(hitByAttack, ds_type_list)) hitByAttack = ds_list_create();
+			ds_list_clear(hitByAttack);
+			alarm[1] = 30;
+		}
+		if(keyboard_check_released(keyAttack)){
+			if(alarm[1] <= 0){
+				
+				AttackCalculator(sPlayerAttackGuitarHB);
 	
-	AttackCalculator(sPlayerAttackGuitarHB);
+				//Update Sprite
+				PlayerAnimateSprite();
+				
+				ScreenShake(3, 10);
 	
-	//Update Sprite
-	PlayerAnimateSprite();
-	
-	if(animationEnd){
-		state = PlayerStateFree;
-		animationEnd = false;
+				if(animationEnd){
+					state = PlayerStateFree;
+					animationEnd = false;
+				}
+			}else{
+				animationEnd = true;
+				if(animationEnd){
+					state = PlayerStateFree;
+					animationEnd = false;
+				}
+			}
+		}
 	}
 }
 
@@ -76,7 +92,12 @@ function AttackCalculator(argument0){
 				ds_list_add(hitByAttack, hitID);
 				with (hitID){
 					if(object_is_ancestor(object_index,pEnemy)){
-						HurtEnemy(id, 1, other.id, 10);
+						switch(global.playerEquipped){
+							case INSTRUMENTS.WHISTLE: HurtEnemy(id, 1, other.id, 10); break;
+							case INSTRUMENTS.DRUMS: HurtEnemy(id, 2, other.id, 15); break;
+							case INSTRUMENTS.GUITAR: HurtEnemy(id, 5, other.id, 30); break;
+						}
+						//HurtEnemy(id, 1, other.id, 10);
 					}else if(entityHitScript != -1) script_execute(entityHitScript);
 				}
 			}
