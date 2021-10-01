@@ -17,22 +17,47 @@ function DrumSpecialAttack(){
 	}
 }
 
-/*function GuitarSpecialAttack(){
-	if(sprite_index != sGuitarSpecialAttack){
-		sprite_index = sGuitarSpecialAttack;
-		localFrame = 0;
-		image_index = 0;
+function GuitarSpecialAttack(){
+	// Attack starts
+	if(keyboard_check(keySpecialAttack)){
+		if(sprite_index != sPlayerSpecialAttackGuitar){
+		
+			// Set up animation
+			sprite_index = sPlayerSpecialAttackGuitar;
+			localFrame= 0;
+			image_index = 0;
+			PlayerAnimateSprite();
+		
+			//Clear hit list
+			if(!ds_exists(hitByAttack, ds_type_list)) hitByAttack = ds_list_create();
+			ds_list_clear(hitByAttack);
+			alarm[2] = 30;
+		}
+		if(keyboard_check_released(keySpecialAttack)){
+			if(alarm[2] <= 0){
+				
+				//AttackCalculator(sPlayerAttackGuitarHB);
+	
+				//Update Sprite
+				PlayerAnimateSprite();
+				
+				ScreenShake(5, 20);
+	
+				if(animationEnd){
+					state = PlayerStateFree;
+					animationEnd = false;
+				}
+			}else{
+				animationEnd = true;
+				if(animationEnd){
+					state = PlayerStateFree;
+					animationEnd = false;
+				}
+			}
+		}
 	}
-	
-	PlayerAnimateSprite();
-	
-	AttackCalculator(sGuitarSpecialAttackHB);
-	
-	if(animationEnd){
-		state = PlayerStateFree;
-		animationEnd = false;
-	}
-}*/
+}
+
 function AttackSpecialWhistle(){
 	PlayerActOutAnimation(sPlayerWhistleAttack,FireSpecialWhistleProjectile);
 }

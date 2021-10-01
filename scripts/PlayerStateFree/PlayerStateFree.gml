@@ -58,7 +58,7 @@ function PlayerStateFree() {
 		switch(global.playerEquipped){
 			case INSTRUMENTS.WHISTLE: stateSpecialAttack = AttackSpecialWhistle; break; 
 			case INSTRUMENTS.DRUMS: stateSpecialAttack = DrumSpecialAttack; break;
-			case INSTRUMENTS.GUITAR: break;
+			case INSTRUMENTS.GUITAR: stateSpecialAttack = GuitarSpecialAttack; break;
 			default: break;
 		}
 	}
