@@ -88,10 +88,10 @@ Desenvolvimento de um jogo para o TCC de Engenharia de Software
   - [x] Melhoria no sistema de Chase (Slime)
   - [x] Melhoria no sistema de Chase (Bat)
   - [ ] Melhoria no sistema de Ataque (Bat)
-  - [ ] Melhoria nos sprites (Slime)
+  - [x] Melhoria nos sprites (Slime)
   - [x] Novo instrumento (Guitarra)
   - [x] Ataques normais (Guitarra)
-  - [ ] Ataque especial (Guitarra)
-  - [ ] Ataque especial (Apito)
+  - [x] Ataque especial (Guitarra)
+  - [x] Ataque especial (Apito)
            
 ## Autor
