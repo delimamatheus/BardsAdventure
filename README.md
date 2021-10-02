@@ -36,8 +36,16 @@ Desenvolvimento de um jogo para o TCC de Engenharia de Software
 ## Tecnologias
 
 ## Versões
+* Bard's Adventure v0.3.4
+     *  [Em Progresso](#tasklist)
 * Bard's Adventure v0.3.3
-     * [Em Progresso](#tasklist)
+     * Melhoria no sistema de Chase (Slime)
+     * Melhoria no sistema de Chase (Morcego)
+     * Melhoria nos sprites (Slime
+     * Novo instrumento (Guitarra)
+     * Ataque normal (Guitarra)
+     * Ataque Especial (Guitarra)
+     * Ataque Especial (Apitor)
 * Bard's Adventure v0.3.2
      * Adição de Drops para os monstros **Slime** e **Morcego**
      * Adição de inventário
@@ -84,14 +92,22 @@ Desenvolvimento de um jogo para o TCC de Engenharia de Software
      * Tirando o projeto do papel
   
 ## Tasklist
-  ### Bard's Adventure v0.3.3
-  - [x] Melhoria no sistema de Chase (Slime)
-  - [x] Melhoria no sistema de Chase (Bat)
-  - [ ] Melhoria no sistema de Ataque (Bat)
-  - [x] Melhoria nos sprites (Slime)
-  - [x] Novo instrumento (Guitarra)
-  - [x] Ataques normais (Guitarra)
-  - [x] Ataque especial (Guitarra)
-  - [x] Ataque especial (Apito)
+  ### Bard's Adventure v0.3.4
+  - [ ] Animação Ataque Especial (Guitarra)
+  - [ ] HitBox Ataque Especial (Guitarra)
+  - [ ] Correção de bugs no Inventário
+  - [ ] Correção de bugs no Ataque Especial (Apito)
+  - [ ] Novo cenário (Floresta)
+  - [ ] Novo monstro (xx)
+  - [ ] Novo puzzle para adquirir instrumento (Bateria)
+  - [ ] Novo puzzle para adquirir instrumento (Guitarra)
+  - [ ] Novo NPC (Cozinheiro)
+  - [ ] Sistema de Loja
+  - [ ] Início da implementação do Livro de Anotações
+  - [ ] Melhoria nos sprites (Ferreiro)
+  - [ ] Melhoria no sistema de diálogos
+  - [ ] Nova missão (Eliminar Morcegos)
+  - [ ] Nova missão (Coletar Maçãs)
+  - [ ] Correção de pequenos bugs e falhas nos sprites (Protagonista)
            
 ## Autor
