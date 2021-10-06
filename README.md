@@ -93,8 +93,8 @@ Desenvolvimento de um jogo para o TCC de Engenharia de Software
   
 ## Tasklist
   ### Bard's Adventure v0.3.4
-  - [ ] Animação Ataque Especial (Guitarra)
-  - [ ] HitBox Ataque Especial (Guitarra)
+  - [x] Animação Ataque Especial (Guitarra)
+  - [x] HitBox Ataque Especial (Guitarra)
   - [ ] Correção de bugs no Inventário
   - [ ] Correção de bugs no Ataque Especial (Apito)
   - [ ] Novo cenário (Floresta)
