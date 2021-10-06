@@ -76,6 +76,7 @@
     {"id":{"name":"PlayerStateBonk","path":"scripts/PlayerStateBonk/PlayerStateBonk.yy",},"order":1,},
     {"id":{"name":"ScriptExecuteArray","path":"scripts/ScriptExecuteArray/ScriptExecuteArray.yy",},"order":3,},
     {"id":{"name":"ScreenShake","path":"scripts/ScreenShake/ScreenShake.yy",},"order":3,},
+    {"id":{"name":"sPlayerSpecialAttackGuitarHB","path":"sprites/sPlayerSpecialAttackGuitarHB/sPlayerSpecialAttackGuitarHB.yy",},"order":12,},
     {"id":{"name":"EnemyTileCollision","path":"scripts/EnemyTileCollision/EnemyTileCollision.yy",},"order":0,},
     {"id":{"name":"EnemyWait","path":"scripts/EnemyWait/EnemyWait.yy",},"order":1,},
     {"id":{"name":"sShadow","path":"sprites/sShadow/sShadow.yy",},"order":1,},

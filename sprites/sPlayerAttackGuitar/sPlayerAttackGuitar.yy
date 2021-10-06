@@ -9,7 +9,7 @@
   "swfPrecision": 2.525,
   "bbox_left": 9,
   "bbox_right": 49,
-  "bbox_top": 12,
+  "bbox_top": 2,
   "bbox_bottom": 42,
   "HTile": false,
   "VTile": false,
@@ -63,15 +63,15 @@
     {"compositeImage":{"FrameId":{"name":"eedf08e1-1914-443f-b851-144e1eff4268","path":"sprites/sPlayerAttackGuitar/sPlayerAttackGuitar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"eedf08e1-1914-443f-b851-144e1eff4268","path":"sprites/sPlayerAttackGuitar/sPlayerAttackGuitar.yy",},"LayerId":{"name":"1556b87d-d842-4b8d-9b1c-2e8b87b19a0f","path":"sprites/sPlayerAttackGuitar/sPlayerAttackGuitar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sPlayerAttackGuitar","path":"sprites/sPlayerAttackGuitar/sPlayerAttackGuitar.yy",},"resourceVersion":"1.0","name":"eedf08e1-1914-443f-b851-144e1eff4268","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f62a7202-37ba-4e71-953b-91fc6f822745","path":"sprites/sPlayerAttackGuitar/sPlayerAttackGuitar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f62a7202-37ba-4e71-953b-91fc6f822745","path":"sprites/sPlayerAttackGuitar/sPlayerAttackGuitar.yy",},"LayerId":{"name":"1556b87d-d842-4b8d-9b1c-2e8b87b19a0f","path":"sprites/sPlayerAttackGuitar/sPlayerAttackGuitar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sPlayerAttackGuitar","path":"sprites/sPlayerAttackGuitar/sPlayerAttackGuitar.yy",},"resourceVersion":"1.0","name":"f62a7202-37ba-4e71-953b-91fc6f822745","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"2a16c9e9-f010-4648-a7f3-550e52f6abf8","path":"sprites/sPlayerAttackGuitar/sPlayerAttackGuitar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"2a16c9e9-f010-4648-a7f3-550e52f6abf8","path":"sprites/sPlayerAttackGuitar/sPlayerAttackGuitar.yy",},"LayerId":{"name":"1556b87d-d842-4b8d-9b1c-2e8b87b19a0f","path":"sprites/sPlayerAttackGuitar/sPlayerAttackGuitar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sPlayerAttackGuitar","path":"sprites/sPlayerAttackGuitar/sPlayerAttackGuitar.yy",},"resourceVersion":"1.0","name":"2a16c9e9-f010-4648-a7f3-550e52f6abf8","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"b0c1a5b1-43ab-4d42-9330-6de8951fa902","path":"sprites/sPlayerAttackGuitar/sPlayerAttackGuitar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"b0c1a5b1-43ab-4d42-9330-6de8951fa902","path":"sprites/sPlayerAttackGuitar/sPlayerAttackGuitar.yy",},"LayerId":{"name":"1556b87d-d842-4b8d-9b1c-2e8b87b19a0f","path":"sprites/sPlayerAttackGuitar/sPlayerAttackGuitar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sPlayerAttackGuitar","path":"sprites/sPlayerAttackGuitar/sPlayerAttackGuitar.yy",},"resourceVersion":"1.0","name":"b0c1a5b1-43ab-4d42-9330-6de8951fa902","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"06fca750-c5e7-4719-9ac9-aca7329e470a","path":"sprites/sPlayerAttackGuitar/sPlayerAttackGuitar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"06fca750-c5e7-4719-9ac9-aca7329e470a","path":"sprites/sPlayerAttackGuitar/sPlayerAttackGuitar.yy",},"LayerId":{"name":"1556b87d-d842-4b8d-9b1c-2e8b87b19a0f","path":"sprites/sPlayerAttackGuitar/sPlayerAttackGuitar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sPlayerAttackGuitar","path":"sprites/sPlayerAttackGuitar/sPlayerAttackGuitar.yy",},"resourceVersion":"1.0","name":"06fca750-c5e7-4719-9ac9-aca7329e470a","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sPlayerAttackGuitar","path":"sprites/sPlayerAttackGuitar/sPlayerAttackGuitar.yy",},
@@ -99,9 +99,9 @@
             {"id":"5ada747c-6269-4033-bb19-b993f0e566c5","Key":10.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"597ca806-5234-45a7-b29a-921a054ae80b","path":"sprites/sPlayerAttackGuitar/sPlayerAttackGuitar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"7b95268f-6680-4954-a444-bf6fac45ce0d","Key":11.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1f144adc-2717-4ebb-9ae5-eba6c8fdb1dc","path":"sprites/sPlayerAttackGuitar/sPlayerAttackGuitar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"0ea124e5-4bb6-4bc7-ad39-cb4adfcade7c","Key":12.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"eedf08e1-1914-443f-b851-144e1eff4268","path":"sprites/sPlayerAttackGuitar/sPlayerAttackGuitar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"48d695e6-4fd8-4a71-a32f-30b22f8ae989","Key":13.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f62a7202-37ba-4e71-953b-91fc6f822745","path":"sprites/sPlayerAttackGuitar/sPlayerAttackGuitar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"6a7cd020-7e81-49b8-a44b-2d43fe8f830f","Key":14.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2a16c9e9-f010-4648-a7f3-550e52f6abf8","path":"sprites/sPlayerAttackGuitar/sPlayerAttackGuitar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"db29386d-f546-4bb2-bd5f-f4f32d18db78","Key":15.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b0c1a5b1-43ab-4d42-9330-6de8951fa902","path":"sprites/sPlayerAttackGuitar/sPlayerAttackGuitar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"6a7cd020-7e81-49b8-a44b-2d43fe8f830f","Key":13.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2a16c9e9-f010-4648-a7f3-550e52f6abf8","path":"sprites/sPlayerAttackGuitar/sPlayerAttackGuitar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"db29386d-f546-4bb2-bd5f-f4f32d18db78","Key":14.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b0c1a5b1-43ab-4d42-9330-6de8951fa902","path":"sprites/sPlayerAttackGuitar/sPlayerAttackGuitar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"66999f6b-d4ee-4c9a-82ad-27a45b80f9e9","Key":15.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"06fca750-c5e7-4719-9ac9-aca7329e470a","path":"sprites/sPlayerAttackGuitar/sPlayerAttackGuitar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -115,7 +115,7 @@
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
     "xorigin": 29,
-    "yorigin": 34,
+    "yorigin": 28,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sPlayerAttackGuitar","path":"sprites/sPlayerAttackGuitar/sPlayerAttackGuitar.yy",},

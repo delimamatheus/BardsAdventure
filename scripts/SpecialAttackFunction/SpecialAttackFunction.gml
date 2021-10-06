@@ -36,7 +36,7 @@ function GuitarSpecialAttack(){
 		if(keyboard_check_released(keySpecialAttack)){
 			if(alarm[2] <= 0){
 				
-				//AttackCalculator(sPlayerAttackGuitarHB);
+				AttackCalculator(sPlayerSpecialAttackGuitarHB);
 	
 				//Update Sprite
 				PlayerAnimateSprite();
