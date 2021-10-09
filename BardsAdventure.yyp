@@ -125,6 +125,7 @@
     {"id":{"name":"sCoinUI","path":"sprites/sCoinUI/sCoinUI.yy",},"order":1,},
     {"id":{"name":"Sprite38","path":"sprites/Sprite38/Sprite38.yy",},"order":23,},
     {"id":{"name":"oRoomExit","path":"objects/oRoomExit/oRoomExit.yy",},"order":6,},
+    {"id":{"name":"dasdasdasd","path":"rooms/dasdasdasd/dasdasdasd.yy",},"order":10,},
     {"id":{"name":"rParent","path":"rooms/rParent/rParent.yy",},"order":5,},
     {"id":{"name":"sPlayerHurt","path":"sprites/sPlayerHurt/sPlayerHurt.yy",},"order":5,},
     {"id":{"name":"PlayerStateTransition","path":"scripts/PlayerStateTransition/PlayerStateTransition.yy",},"order":7,},
@@ -160,6 +161,7 @@
     {"roomId":{"name":"rShop","path":"rooms/rShop/rShop.yy",},},
     {"roomId":{"name":"rTitle","path":"rooms/rTitle/rTitle.yy",},},
     {"roomId":{"name":"rForest","path":"rooms/rForest/rForest.yy",},},
+    {"roomId":{"name":"dasdasdasd","path":"rooms/dasdasdasd/dasdasdasd.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
