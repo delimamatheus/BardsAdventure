@@ -49,3 +49,33 @@ function KillBats(){
 	default: break;
 	}
 }
+
+function DrumQuest(){
+	global.activeQuest = 1;
+	switch(global.questStatus[? "Drum"]){
+		case 0:{
+			newTextBoxes("Essa missão é pra liberar a bateria", 0);
+			global.questStatus[? "Drum"] = 1;
+		}break;
+		case 1:{
+			if(global.questStatus[? "CollectDrum1"] == 2){
+				global.questStatus[? "Drum"] = 2;
+				global.activeQuest = 0;
+				global.playerItemUnlocked[INSTRUMENTS.DRUMS] = true;
+				newTextBoxes("Agora você pode utilizar um novo instrumento", 0);
+				removeItemsInventory(QUESTITEMS.BAQUETA, 1, sQuestItems);
+			}
+		}break;
+		default: break;
+	}	
+}
+
+function CollectDrum1(){
+	switch(global.questStatus[? "CollectDrum1"]){ 
+		case 0:{
+			newTextBoxes("Você achou uma parte da bateria", 0);
+			global.questStatus[? "CollectDrum1"] = 2;
+			addItemsInventory(QUESTITEMS.BAQUETA, 1, sQuestItems);
+		}
+	}
+}

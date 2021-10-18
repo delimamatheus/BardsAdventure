@@ -22,6 +22,49 @@ if (global.inventoryOpen == true){
 	
 		if(point_in_rectangle(_mouseX,_mouseY,slotX,slotY,slotX+slotSize,slotY+slotSize)){
 			draw_sprite_ext(sInventorySelector, 0, slotX, slotY, scale, scale,0, c_white, 1);
+			var _inst = 0;
+			if(keyboard_check_pressed(ord("F"))) and (grid_items[# INFOS.ITEM, i] != -1){
+				switch(grid_items[# INFOS.ITEM, i]){
+					case ITEMS.SLIMESDROP:{
+						if(grid_items[# INFOS.SPRITE, i] == sItems){
+							_inst = instance_create_layer(oPlayer.x, oPlayer.y, "Instances", oSlimeDrop);
+							_inst.sprite_index = grid_items[# INFOS.SPRITE, i];
+							_inst.image_index = grid_items[# INFOS.ITEM, i];
+							_inst.amount = grid_items[# INFOS.AMOUNT, i];
+				
+							grid_items[# INFOS.AMOUNT, i] -= 1;
+					
+							if(grid_items[# INFOS.AMOUNT, i] <= 0){
+								grid_items[# INFOS.ITEM, i] = -1;
+								grid_items[# INFOS.AMOUNT, i] = -1;
+								grid_items[# INFOS.SPRITE, i] = -1;
+						
+							}
+						}else if(grid_items[# INFOS.SPRITE, i] == sQuestItems){
+							newTextBoxes("É um item de missão", 2);
+						}
+					}break;
+					case ITEMS.BATDROP:{
+						if (grid_items[# INFOS.SPRITE, i] == sItems){
+							_inst = instance_create_layer(oPlayer.x, oPlayer.y, "Instances", oBatDrop);
+							_inst.sprite_index = grid_items[# INFOS.SPRITE, i];
+							_inst.image_index = grid_items[# INFOS.ITEM, i];
+							_inst.amount = grid_items[# INFOS.AMOUNT, i];
+				
+							grid_items[# INFOS.AMOUNT, i] -= 1;
+					
+							if(grid_items[# INFOS.AMOUNT, i] <= 0){
+								grid_items[# INFOS.ITEM, i] = -1;
+								grid_items[# INFOS.AMOUNT, i] = -1;
+								grid_items[# INFOS.SPRITE, i] = -1;
+						
+							}
+						}else if (grid_items[# INFOS.SPRITE, i] == sQuestItems){
+							newTextBoxes("Esse é um item de missão", 2);
+						}
+					}break;
+				}
+			}
 		
 			if(mouse_check_button_pressed(mb_left)){
 				if(selectedItem == -1){
@@ -29,7 +72,7 @@ if (global.inventoryOpen == true){
 					selectedPosition = i;
 				}else{
 					// Same items
-					if(selectedItem == grid_items[# INFOS.ITEM, i]) and (selectedPosition != i){
+					if(selectedItem == grid_items[# INFOS.ITEM, i]) and (selectedPosition != i) and grid_items[# INFOS.SPRITE, i] == grid_items[# INFOS.SPRITE, selectedPosition]{
 						grid_items[# INFOS.AMOUNT, i] += grid_items[# INFOS.AMOUNT, selectedPosition]; 
 						
 						grid_items[# INFOS.ITEM, selectedPosition] = -1;
@@ -39,20 +82,25 @@ if (global.inventoryOpen == true){
 					}else if(grid_items[# INFOS.ITEM, i] == -1){ // Null slot
 						grid_items[# INFOS.ITEM, i] = grid_items[# INFOS.ITEM, selectedPosition];
 						grid_items[# INFOS.AMOUNT, i] = grid_items[# INFOS.AMOUNT, selectedPosition];
+						grid_items[# INFOS.SPRITE, i] = grid_items[# INFOS.SPRITE, selectedPosition];
 						
 						grid_items[# INFOS.ITEM, selectedPosition] = -1;
-						grid_items[# INFOS.AMOUNT, selectedPosition] = -1
+						grid_items[# INFOS.AMOUNT, selectedPosition] = -1;
+						grid_items[# INFOS.SPRITE, selectedPosition] = -1;
 						selectedItem = -1;
 						selectedPosition = -1;
-					}else if(grid_items[# INFOS.ITEM, selectedPosition] != grid_items[# INFOS.ITEM, i]){ // Dif items
+					}else if(grid_items[# INFOS.ITEM, selectedPosition] != grid_items[# INFOS.ITEM, i]) or (grid_items[# INFOS.SPRITE, selectedPosition] != grid_items[# INFOS.SPRITE, i]) { // Diff items
 						var _item = grid_items[# INFOS.ITEM, i];
 						var _amount = grid_items[# INFOS.AMOUNT, i];
+						var _spriteItem = grid_items[# INFOS.SPRITE, i];
 						
 						grid_items[# INFOS.ITEM, i] = grid_items[# INFOS.ITEM, selectedPosition];
 						grid_items[# INFOS.AMOUNT, i] = grid_items[# INFOS.AMOUNT, selectedPosition];
+						grid_items[# INFOS.SPRITE, i] = grid_items[# INFOS.SPRITE, selectedPosition];
 						
 						grid_items[# INFOS.ITEM, selectedPosition] = _item;
 						grid_items[# INFOS.AMOUNT, selectedPosition] = _amount;
+						grid_items[# INFOS.SPRITE, selectedPosition] = _spriteItem;
 						
 						selectedItem = -1;
 						selectedPosition = -1;
@@ -61,9 +109,10 @@ if (global.inventoryOpen == true){
 			}
 		}
 	
+		_sprite = grid_items[# INFOS.SPRITE, i];
 		if(grid_items[# INFOS.ITEM, i] != -1){
 			// Sprite
-			draw_sprite_ext(sItems, grid_items[# INFOS.ITEM, i], slotX, slotY, scale, scale, 0, c_white, 1);
+			draw_sprite_ext(_sprite, grid_items[# INFOS.ITEM, i], slotX, slotY, scale, scale, 0, c_white, 1);
 		
 			// Amount
 			draw_set_font(fText);
@@ -85,7 +134,7 @@ if (global.inventoryOpen == true){
 	}
 	
 	if (selectedItem != -1){
-		draw_sprite_ext(sItems, selectedItem, _mouseX, _mouseY, scale,scale,0,c_white,0.5);
+		draw_sprite_ext(grid_items[# INFOS.SPRITE, selectedPosition], selectedItem, _mouseX, _mouseY, scale,scale,0,c_white,0.5);
 	}
 }
 

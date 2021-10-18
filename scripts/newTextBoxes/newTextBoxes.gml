@@ -4,7 +4,7 @@ function newTextBoxes(){
 	var _obj;
 	
 	if (instance_exists(oText)) _obj = oTextQueue; else _obj = oText;
-	with (instance_create_layer(0,0,"Instances",_obj)){
+	with (instance_create_layer(0,0,"Text",_obj)){
 		message = argument0;
 		
 		if (instance_exists(other)) originInstance = other.id else originInstance = noone;

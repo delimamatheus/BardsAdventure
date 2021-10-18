@@ -25,6 +25,8 @@ global.playerAttackType = 0;
 global.questStatus = ds_map_create();
 global.questStatus[? "TheSlimeQuest"] = 0;
 global.questStatus[? "TheBatQuest"] = 0;
+global.questStatus[? "Drum"] = 0;
+global.questStatus[? "CollectDrum1"] = 0;
 
 //Items
 global.playerEquipped = INSTRUMENTS.WHISTLE;

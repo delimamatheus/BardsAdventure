@@ -1,4 +1,4 @@
-/// @description Insert description here
+ /// @description Insert description here
 // You can write your code in this editor
 //inventoryOpen = false;
 scale = 1;
@@ -22,8 +22,4 @@ selectedItem = -1;
 selectedPosition = -1;
 
 grid_items = ds_grid_create(INFOS.COUNTERINFOS,totalSlots);
-ds_grid_set_region(grid_items, 0, 0, 1, totalSlots-1, -1);
-
-
-//grid_items[# INFOS.ITEM, 1] = ITEMS.SLIMESDROP;
-//grid_items[# INFOS.AMOUNT, 1] =3;
+ds_grid_set_region(grid_items, 0, 0, INFOS.COUNTERINFOS-1, totalSlots-1, -1);

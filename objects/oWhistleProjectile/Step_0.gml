@@ -8,14 +8,14 @@ if(_entity != noone){
 		if(object_is_ancestor(object_index,pEnemy)){
 			HurtEnemy(id,1,other.id,20);
 			_break = true;
-		}else{
+		}else{ 
 			if(entityHitScript != -1){
 				script_execute(entityHitScript);
 				_break = true;
 			}
 		}
 	}
-	if (_break) instance_destroy();
+ 	if (_break) instance_destroy();
 }
 
 // Destroy if leave camera
