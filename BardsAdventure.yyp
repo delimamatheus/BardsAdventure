@@ -67,6 +67,8 @@
     {"id":{"name":"PlayerStateAttack","path":"scripts/PlayerStateAttack/PlayerStateAttack.yy",},"order":0,},
     {"id":{"name":"sTree2wDrum","path":"sprites/sTree2wDrum/sTree2wDrum.yy",},"order":37,},
     {"id":{"name":"DialogResponses","path":"scripts/DialogResponses/DialogResponses.yy",},"order":0,},
+    {"id":{"name":"sTreeBase","path":"sprites/sTreeBase/sTreeBase.yy",},"order":38,},
+    {"id":{"name":"oTreeBase","path":"objects/oTreeBase/oTreeBase.yy",},"order":14,},
     {"id":{"name":"PlayerCollision","path":"scripts/PlayerCollision/PlayerCollision.yy",},"order":1,},
     {"id":{"name":"oSlimeDrop","path":"objects/oSlimeDrop/oSlimeDrop.yy",},"order":2,},
     {"id":{"name":"AttackFunction","path":"scripts/AttackFunction/AttackFunction.yy",},"order":1,},
