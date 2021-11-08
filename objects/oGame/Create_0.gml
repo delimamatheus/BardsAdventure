@@ -1,5 +1,6 @@
 /// @desc Initialise & Globals
 randomize();
+window_set_fullscreen(1);
 
 // General
 global.gameSaveSlot = 0;
@@ -33,7 +34,7 @@ global.playerEquipped = INSTRUMENTS.WHISTLE;
 global.playerItemUnlocked = array_create(INSTRUMENTS.TYPE_COUNT,false);
 global.playerItemUnlocked[INSTRUMENTS.WHISTLE] = true;
 global.playerItemUnlocked[INSTRUMENTS.DRUMS] = false;
-global.playerItemUnlocked[INSTRUMENTS.GUITAR] = true;
+global.playerItemUnlocked[INSTRUMENTS.GUITAR] = false;
 
 // Camera and UI
 global.iCamera = instance_create_layer(0,0,layer,oCamera);
@@ -48,5 +49,5 @@ global.inventoryOpen = false;
 
 surface_resize(application_surface, RESOLUTION_W, RESOLUTION_H);
 
-//room_goto(ROOM_START);
-room_goto(rForest);
+room_goto(ROOM_START);
+//room_goto(rForest);

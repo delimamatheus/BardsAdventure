@@ -23,6 +23,7 @@ if (global.inventoryOpen == true){
 		if(point_in_rectangle(_mouseX,_mouseY,slotX,slotY,slotX+slotSize,slotY+slotSize)){
 			draw_sprite_ext(sInventorySelector, 0, slotX, slotY, scale, scale,0, c_white, 1);
 			var _inst = 0;
+			// Drop Item
 			if(keyboard_check_pressed(ord("F"))) and (grid_items[# INFOS.ITEM, i] != -1){
 				switch(grid_items[# INFOS.ITEM, i]){
 					case ITEMS.SLIMESDROP:{
@@ -65,7 +66,8 @@ if (global.inventoryOpen == true){
 					}break;
 				}
 			}
-		
+			
+			// Select with mouse
 			if(mouse_check_button_pressed(mb_left)){
 				if(selectedItem == -1){
 					selectedItem = grid_items[# INFOS.ITEM, i];
