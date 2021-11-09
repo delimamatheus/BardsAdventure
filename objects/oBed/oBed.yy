@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Bed",
-    "path": "sprites/Bed/Bed.yy",
+    "name": "sBed",
+    "path": "sprites/sBed/sBed.yy",
   },
   "solid": false,
   "visible": true,
@@ -34,8 +34,8 @@
     {"propertyId":{"name":"entityActivateScript","path":"objects/pEntity/pEntity.yy",},"objectId":{"name":"pEntity","path":"objects/pEntity/pEntity.yy",},"value":"Sleep","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Scenario",
+    "path": "folders/Objects/Entities/Scenario.yy",
   },
   "resourceVersion": "1.0",
   "name": "oBed",

@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Scenario",
+    "path": "folders/Sprites/Scenario.yy",
   },
   "resourceVersion": "1.0",
   "name": "sManualBook",

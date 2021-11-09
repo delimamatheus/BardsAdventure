@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Inventory",
-    "path": "folders/Scripts/Inventory.yy",
+    "name": "Scripts",
+    "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "removeItemsInventory",
+  "name": "UNIT_TEST",
   "tags": [],
   "resourceType": "GMScript",
 }

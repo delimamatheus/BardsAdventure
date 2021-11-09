@@ -31,8 +31,8 @@
     {"propertyId":{"name":"entityHitScript","path":"objects/pEntity/pEntity.yy",},"objectId":{"name":"pEntity","path":"objects/pEntity/pEntity.yy",},"value":"EntityHitSolid","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Scenario",
+    "path": "folders/Objects/Entities/Scenario.yy",
   },
   "resourceVersion": "1.0",
   "name": "oTreeBase2",

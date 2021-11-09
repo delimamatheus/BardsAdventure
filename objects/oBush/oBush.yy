@@ -33,8 +33,8 @@
     {"propertyId":{"name":"entityCollision","path":"objects/pEntity/pEntity.yy",},"objectId":{"name":"pEntity","path":"objects/pEntity/pEntity.yy",},"value":"True","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Scenario",
+    "path": "folders/Objects/Entities/Scenario.yy",
   },
   "resourceVersion": "1.0",
   "name": "oBush",
