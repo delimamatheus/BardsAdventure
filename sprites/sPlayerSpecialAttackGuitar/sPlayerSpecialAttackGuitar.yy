@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sPlayerSpecialAttackGuitar",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,105 +27,43 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"e2c9e6b9-de5c-4630-979a-feb4f3b10ae4","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e2c9e6b9-de5c-4630-979a-feb4f3b10ae4","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":{"name":"1556b87d-d842-4b8d-9b1c-2e8b87b19a0f","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sPlayerSpecialAttackGuitar","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"e2c9e6b9-de5c-4630-979a-feb4f3b10ae4","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"08650e10-c7fc-4a1e-8f10-bfe15d359d61","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"08650e10-c7fc-4a1e-8f10-bfe15d359d61","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":{"name":"1556b87d-d842-4b8d-9b1c-2e8b87b19a0f","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sPlayerSpecialAttackGuitar","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"08650e10-c7fc-4a1e-8f10-bfe15d359d61","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"899401eb-15c7-4234-8e52-16a2b9842200","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"899401eb-15c7-4234-8e52-16a2b9842200","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":{"name":"1556b87d-d842-4b8d-9b1c-2e8b87b19a0f","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sPlayerSpecialAttackGuitar","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"899401eb-15c7-4234-8e52-16a2b9842200","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"308867f9-42b7-4af7-84c7-c36cda52893a","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"308867f9-42b7-4af7-84c7-c36cda52893a","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":{"name":"1556b87d-d842-4b8d-9b1c-2e8b87b19a0f","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sPlayerSpecialAttackGuitar","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"308867f9-42b7-4af7-84c7-c36cda52893a","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"98b340c1-c25e-44c1-91ad-115351d3420b","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"98b340c1-c25e-44c1-91ad-115351d3420b","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":{"name":"1556b87d-d842-4b8d-9b1c-2e8b87b19a0f","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sPlayerSpecialAttackGuitar","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"98b340c1-c25e-44c1-91ad-115351d3420b","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"157a38f9-c703-451c-8235-61c2e71e7331","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"157a38f9-c703-451c-8235-61c2e71e7331","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":{"name":"1556b87d-d842-4b8d-9b1c-2e8b87b19a0f","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sPlayerSpecialAttackGuitar","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"157a38f9-c703-451c-8235-61c2e71e7331","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c4a68250-6dbb-488e-8f4b-f00f478a35bc","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c4a68250-6dbb-488e-8f4b-f00f478a35bc","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":{"name":"1556b87d-d842-4b8d-9b1c-2e8b87b19a0f","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sPlayerSpecialAttackGuitar","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"c4a68250-6dbb-488e-8f4b-f00f478a35bc","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"fba1695a-1846-4e16-94d2-bdd0dbb3c3ff","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"fba1695a-1846-4e16-94d2-bdd0dbb3c3ff","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":{"name":"1556b87d-d842-4b8d-9b1c-2e8b87b19a0f","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sPlayerSpecialAttackGuitar","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"fba1695a-1846-4e16-94d2-bdd0dbb3c3ff","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"96b31a2b-1d14-4cd1-b3bf-e477e2fc4eca","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"96b31a2b-1d14-4cd1-b3bf-e477e2fc4eca","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":{"name":"1556b87d-d842-4b8d-9b1c-2e8b87b19a0f","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sPlayerSpecialAttackGuitar","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"96b31a2b-1d14-4cd1-b3bf-e477e2fc4eca","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e87931f8-58d5-4114-a83e-5bcb3466e90a","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e87931f8-58d5-4114-a83e-5bcb3466e90a","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":{"name":"1556b87d-d842-4b8d-9b1c-2e8b87b19a0f","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sPlayerSpecialAttackGuitar","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"e87931f8-58d5-4114-a83e-5bcb3466e90a","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"71a724f2-1ec3-4d14-9587-493cace3c993","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"71a724f2-1ec3-4d14-9587-493cace3c993","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":{"name":"1556b87d-d842-4b8d-9b1c-2e8b87b19a0f","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sPlayerSpecialAttackGuitar","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"71a724f2-1ec3-4d14-9587-493cace3c993","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"cdf9a5ee-de47-4c98-9b98-9d6acdb08435","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"cdf9a5ee-de47-4c98-9b98-9d6acdb08435","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":{"name":"1556b87d-d842-4b8d-9b1c-2e8b87b19a0f","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sPlayerSpecialAttackGuitar","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"cdf9a5ee-de47-4c98-9b98-9d6acdb08435","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f9348dc9-187d-488f-a0f0-d817f9347e3e","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f9348dc9-187d-488f-a0f0-d817f9347e3e","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":{"name":"1556b87d-d842-4b8d-9b1c-2e8b87b19a0f","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sPlayerSpecialAttackGuitar","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"f9348dc9-187d-488f-a0f0-d817f9347e3e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"7642c46e-3e83-418f-9496-15308207faa3","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7642c46e-3e83-418f-9496-15308207faa3","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":{"name":"1556b87d-d842-4b8d-9b1c-2e8b87b19a0f","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sPlayerSpecialAttackGuitar","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"7642c46e-3e83-418f-9496-15308207faa3","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e2913602-1fdd-4172-ad2f-fdce8000a0e8","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e2913602-1fdd-4172-ad2f-fdce8000a0e8","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":{"name":"1556b87d-d842-4b8d-9b1c-2e8b87b19a0f","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sPlayerSpecialAttackGuitar","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"e2913602-1fdd-4172-ad2f-fdce8000a0e8","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"4fbe8e6a-4895-42eb-8aff-66ca2f84ee93","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4fbe8e6a-4895-42eb-8aff-66ca2f84ee93","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":{"name":"1556b87d-d842-4b8d-9b1c-2e8b87b19a0f","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sPlayerSpecialAttackGuitar","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"4fbe8e6a-4895-42eb-8aff-66ca2f84ee93","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"418d8e29-c1eb-45bc-bbf9-60fd12447da4","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"418d8e29-c1eb-45bc-bbf9-60fd12447da4","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":{"name":"1556b87d-d842-4b8d-9b1c-2e8b87b19a0f","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sPlayerSpecialAttackGuitar","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"418d8e29-c1eb-45bc-bbf9-60fd12447da4","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"d76e03a9-56f1-41d7-b351-ffd160a247a0","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d76e03a9-56f1-41d7-b351-ffd160a247a0","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":{"name":"1556b87d-d842-4b8d-9b1c-2e8b87b19a0f","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sPlayerSpecialAttackGuitar","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"d76e03a9-56f1-41d7-b351-ffd160a247a0","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"597ca806-5234-45a7-b29a-921a054ae80b","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"597ca806-5234-45a7-b29a-921a054ae80b","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":{"name":"1556b87d-d842-4b8d-9b1c-2e8b87b19a0f","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sPlayerSpecialAttackGuitar","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"597ca806-5234-45a7-b29a-921a054ae80b","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"1f144adc-2717-4ebb-9ae5-eba6c8fdb1dc","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1f144adc-2717-4ebb-9ae5-eba6c8fdb1dc","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":{"name":"1556b87d-d842-4b8d-9b1c-2e8b87b19a0f","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sPlayerSpecialAttackGuitar","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"1f144adc-2717-4ebb-9ae5-eba6c8fdb1dc","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"2d892bb7-3e90-487e-83e9-9e88e20cadea","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2d892bb7-3e90-487e-83e9-9e88e20cadea","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":{"name":"1556b87d-d842-4b8d-9b1c-2e8b87b19a0f","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sPlayerSpecialAttackGuitar","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"2d892bb7-3e90-487e-83e9-9e88e20cadea","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e9e17b84-90b4-49b8-83a7-18b9d3bc4882","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e9e17b84-90b4-49b8-83a7-18b9d3bc4882","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":{"name":"1556b87d-d842-4b8d-9b1c-2e8b87b19a0f","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sPlayerSpecialAttackGuitar","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"e9e17b84-90b4-49b8-83a7-18b9d3bc4882","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f7f606f9-0049-4945-8e06-2b1cf60a4369","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f7f606f9-0049-4945-8e06-2b1cf60a4369","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":{"name":"1556b87d-d842-4b8d-9b1c-2e8b87b19a0f","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sPlayerSpecialAttackGuitar","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"f7f606f9-0049-4945-8e06-2b1cf60a4369","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"46310643-9fa5-460c-b423-e73fc0ffdf43","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"46310643-9fa5-460c-b423-e73fc0ffdf43","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":{"name":"1556b87d-d842-4b8d-9b1c-2e8b87b19a0f","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sPlayerSpecialAttackGuitar","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"46310643-9fa5-460c-b423-e73fc0ffdf43","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"eedf08e1-1914-443f-b851-144e1eff4268","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"eedf08e1-1914-443f-b851-144e1eff4268","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":{"name":"1556b87d-d842-4b8d-9b1c-2e8b87b19a0f","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sPlayerSpecialAttackGuitar","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"eedf08e1-1914-443f-b851-144e1eff4268","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"04785778-feea-460b-be4e-fcf2110145c3","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"04785778-feea-460b-be4e-fcf2110145c3","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":{"name":"1556b87d-d842-4b8d-9b1c-2e8b87b19a0f","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sPlayerSpecialAttackGuitar","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"04785778-feea-460b-be4e-fcf2110145c3","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"72ecd630-8702-4754-8933-3d5253b46ddf","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"72ecd630-8702-4754-8933-3d5253b46ddf","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":{"name":"1556b87d-d842-4b8d-9b1c-2e8b87b19a0f","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sPlayerSpecialAttackGuitar","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"72ecd630-8702-4754-8933-3d5253b46ddf","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"3cdcf7e8-e398-4a73-b587-62a952fb53b4","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3cdcf7e8-e398-4a73-b587-62a952fb53b4","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":{"name":"1556b87d-d842-4b8d-9b1c-2e8b87b19a0f","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sPlayerSpecialAttackGuitar","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"3cdcf7e8-e398-4a73-b587-62a952fb53b4","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"50d19a7d-4a93-4fbe-93f1-45951810de5b","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"50d19a7d-4a93-4fbe-93f1-45951810de5b","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":{"name":"1556b87d-d842-4b8d-9b1c-2e8b87b19a0f","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sPlayerSpecialAttackGuitar","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"50d19a7d-4a93-4fbe-93f1-45951810de5b","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"deb0b900-6364-4ce1-ad6f-7a38dc054b1a","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"deb0b900-6364-4ce1-ad6f-7a38dc054b1a","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":{"name":"1556b87d-d842-4b8d-9b1c-2e8b87b19a0f","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sPlayerSpecialAttackGuitar","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"deb0b900-6364-4ce1-ad6f-7a38dc054b1a","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f9216d5a-e6d2-4c5c-a768-eecb4d492c1d","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f9216d5a-e6d2-4c5c-a768-eecb4d492c1d","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":{"name":"1556b87d-d842-4b8d-9b1c-2e8b87b19a0f","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sPlayerSpecialAttackGuitar","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"f9216d5a-e6d2-4c5c-a768-eecb4d492c1d","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f266d997-2fa6-4aaa-839c-1a8d7c58ddc8","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f266d997-2fa6-4aaa-839c-1a8d7c58ddc8","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"LayerId":{"name":"1556b87d-d842-4b8d-9b1c-2e8b87b19a0f","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sPlayerSpecialAttackGuitar","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","name":"f266d997-2fa6-4aaa-839c-1a8d7c58ddc8","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e2c9e6b9-de5c-4630-979a-feb4f3b10ae4",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"08650e10-c7fc-4a1e-8f10-bfe15d359d61",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"899401eb-15c7-4234-8e52-16a2b9842200",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"308867f9-42b7-4af7-84c7-c36cda52893a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"98b340c1-c25e-44c1-91ad-115351d3420b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"157a38f9-c703-451c-8235-61c2e71e7331",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c4a68250-6dbb-488e-8f4b-f00f478a35bc",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fba1695a-1846-4e16-94d2-bdd0dbb3c3ff",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"96b31a2b-1d14-4cd1-b3bf-e477e2fc4eca",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e87931f8-58d5-4114-a83e-5bcb3466e90a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"71a724f2-1ec3-4d14-9587-493cace3c993",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cdf9a5ee-de47-4c98-9b98-9d6acdb08435",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f9348dc9-187d-488f-a0f0-d817f9347e3e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7642c46e-3e83-418f-9496-15308207faa3",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e2913602-1fdd-4172-ad2f-fdce8000a0e8",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4fbe8e6a-4895-42eb-8aff-66ca2f84ee93",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"418d8e29-c1eb-45bc-bbf9-60fd12447da4",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d76e03a9-56f1-41d7-b351-ffd160a247a0",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"597ca806-5234-45a7-b29a-921a054ae80b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1f144adc-2717-4ebb-9ae5-eba6c8fdb1dc",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2d892bb7-3e90-487e-83e9-9e88e20cadea",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e9e17b84-90b4-49b8-83a7-18b9d3bc4882",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f7f606f9-0049-4945-8e06-2b1cf60a4369",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"46310643-9fa5-460c-b423-e73fc0ffdf43",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"eedf08e1-1914-443f-b851-144e1eff4268",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"04785778-feea-460b-be4e-fcf2110145c3",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"72ecd630-8702-4754-8933-3d5253b46ddf",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3cdcf7e8-e398-4a73-b587-62a952fb53b4",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"50d19a7d-4a93-4fbe-93f1-45951810de5b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"deb0b900-6364-4ce1-ad6f-7a38dc054b1a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f9216d5a-e6d2-4c5c-a768-eecb4d492c1d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f266d997-2fa6-4aaa-839c-1a8d7c58ddc8",},
   ],
   "sequence": {
-    "spriteId": {"name":"sPlayerSpecialAttackGuitar","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sPlayerSpecialAttackGuitar",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -133,7 +74,7 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"c3a226bf-dccf-4bee-a61b-c0b44ee4b1ad","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e2c9e6b9-de5c-4630-979a-feb4f3b10ae4","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"adc82c9e-99da-44c3-b140-89e586100164","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"08650e10-c7fc-4a1e-8f10-bfe15d359d61","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"22d4c144-415b-417d-9cb1-75d7354ef220","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"899401eb-15c7-4234-8e52-16a2b9842200","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
@@ -166,7 +107,7 @@
             {"id":"bc5a9cf0-e0be-4ec6-9dd7-ee077edc0893","Key":29.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"deb0b900-6364-4ce1-ad6f-7a38dc054b1a","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"fbda80dc-ee2a-47f8-94a5-a46ec36d52f0","Key":30.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f9216d5a-e6d2-4c5c-a768-eecb4d492c1d","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"a4e30e7d-48b6-4710-95a5-75782c89d336","Key":31.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f266d997-2fa6-4aaa-839c-1a8d7c58ddc8","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -182,22 +123,13 @@
     "yorigin": 60,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sPlayerSpecialAttackGuitar","path":"sprites/sPlayerSpecialAttackGuitar/sPlayerSpecialAttackGuitar.yy",},
-    "resourceVersion": "1.3",
-    "name": "sPlayerSpecialAttackGuitar",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1556b87d-d842-4b8d-9b1c-2e8b87b19a0f","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1556b87d-d842-4b8d-9b1c-2e8b87b19a0f","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "StateMachine",
     "path": "folders/Sprites/Entities/Player/StateMachine.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sPlayerSpecialAttackGuitar",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

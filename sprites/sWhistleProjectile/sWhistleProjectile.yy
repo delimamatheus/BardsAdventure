@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sWhistleProjectile",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"266e80a0-90a9-414a-b9ef-d1f063aa61d9","path":"sprites/sWhistleProjectile/sWhistleProjectile.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"266e80a0-90a9-414a-b9ef-d1f063aa61d9","path":"sprites/sWhistleProjectile/sWhistleProjectile.yy",},"LayerId":{"name":"81ea9213-fba2-4e77-b5e2-cb2a929a4c4b","path":"sprites/sWhistleProjectile/sWhistleProjectile.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sWhistleProjectile","path":"sprites/sWhistleProjectile/sWhistleProjectile.yy",},"resourceVersion":"1.0","name":"266e80a0-90a9-414a-b9ef-d1f063aa61d9","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"266e80a0-90a9-414a-b9ef-d1f063aa61d9",},
   ],
   "sequence": {
-    "spriteId": {"name":"sWhistleProjectile","path":"sprites/sWhistleProjectile/sWhistleProjectile.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sWhistleProjectile",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"38091e2f-790c-43db-a74e-a972f8938656","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"266e80a0-90a9-414a-b9ef-d1f063aa61d9","path":"sprites/sWhistleProjectile/sWhistleProjectile.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 2,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sWhistleProjectile","path":"sprites/sWhistleProjectile/sWhistleProjectile.yy",},
-    "resourceVersion": "1.3",
-    "name": "sWhistleProjectile",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"81ea9213-fba2-4e77-b5e2-cb2a929a4c4b","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"81ea9213-fba2-4e77-b5e2-cb2a929a4c4b","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Instruments",
     "path": "folders/Sprites/Entities/Instruments.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sWhistleProjectile",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

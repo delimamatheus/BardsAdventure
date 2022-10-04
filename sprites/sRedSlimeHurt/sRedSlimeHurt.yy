@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sRedSlimeHurt",
   "bboxMode": 0,
   "collisionKind": 4,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"fe60e570-d12b-4ef2-9bfd-c3533323b971","path":"sprites/sRedSlimeHurt/sRedSlimeHurt.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"fe60e570-d12b-4ef2-9bfd-c3533323b971","path":"sprites/sRedSlimeHurt/sRedSlimeHurt.yy",},"LayerId":{"name":"dd3821e0-0b55-4e7d-ada6-118e0a250500","path":"sprites/sRedSlimeHurt/sRedSlimeHurt.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sRedSlimeHurt","path":"sprites/sRedSlimeHurt/sRedSlimeHurt.yy",},"resourceVersion":"1.0","name":"fe60e570-d12b-4ef2-9bfd-c3533323b971","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fe60e570-d12b-4ef2-9bfd-c3533323b971",},
   ],
   "sequence": {
-    "spriteId": {"name":"sRedSlimeHurt","path":"sprites/sRedSlimeHurt/sRedSlimeHurt.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sRedSlimeHurt",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"d2cdb076-2bf7-4f9c-a278-249adc1aaee7","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fe60e570-d12b-4ef2-9bfd-c3533323b971","path":"sprites/sRedSlimeHurt/sRedSlimeHurt.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 11,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sRedSlimeHurt","path":"sprites/sRedSlimeHurt/sRedSlimeHurt.yy",},
-    "resourceVersion": "1.3",
-    "name": "sRedSlimeHurt",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"dd3821e0-0b55-4e7d-ada6-118e0a250500","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"dd3821e0-0b55-4e7d-ada6-118e0a250500","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Slime",
     "path": "folders/Sprites/Entities/Enemies/Slime.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sRedSlimeHurt",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

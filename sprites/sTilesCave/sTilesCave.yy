@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sTilesCave",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"680b3a99-d8c4-462a-9d8e-a94f9bebeb78","path":"sprites/sTilesCave/sTilesCave.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"680b3a99-d8c4-462a-9d8e-a94f9bebeb78","path":"sprites/sTilesCave/sTilesCave.yy",},"LayerId":{"name":"4cbcd2b6-f9b0-4a81-abb4-509976998ca8","path":"sprites/sTilesCave/sTilesCave.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sTilesCave","path":"sprites/sTilesCave/sTilesCave.yy",},"resourceVersion":"1.0","name":"680b3a99-d8c4-462a-9d8e-a94f9bebeb78","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"680b3a99-d8c4-462a-9d8e-a94f9bebeb78",},
   ],
   "sequence": {
-    "spriteId": {"name":"sTilesCave","path":"sprites/sTilesCave/sTilesCave.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sTilesCave",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"e13cbc80-cf09-46fd-91ee-246fdc7fde29","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"680b3a99-d8c4-462a-9d8e-a94f9bebeb78","path":"sprites/sTilesCave/sTilesCave.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sTilesCave","path":"sprites/sTilesCave/sTilesCave.yy",},
-    "resourceVersion": "1.3",
-    "name": "sTilesCave",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4cbcd2b6-f9b0-4a81-abb4-509976998ca8","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4cbcd2b6-f9b0-4a81-abb4-509976998ca8","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Tiles",
     "path": "folders/Sprites/Tiles.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sTilesCave",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

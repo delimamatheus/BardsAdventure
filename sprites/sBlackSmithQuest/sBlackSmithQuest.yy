@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sBlackSmithQuest",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,21 +27,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"cf7bf923-61c3-41c3-96b7-4f4e3f7e8164","path":"sprites/sBlackSmithQuest/sBlackSmithQuest.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"cf7bf923-61c3-41c3-96b7-4f4e3f7e8164","path":"sprites/sBlackSmithQuest/sBlackSmithQuest.yy",},"LayerId":{"name":"88f51e14-71da-4efa-8d5e-6dac931014c4","path":"sprites/sBlackSmithQuest/sBlackSmithQuest.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sBlackSmithQuest","path":"sprites/sBlackSmithQuest/sBlackSmithQuest.yy",},"resourceVersion":"1.0","name":"cf7bf923-61c3-41c3-96b7-4f4e3f7e8164","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"7858a8d9-b03c-4b83-8082-a631c92ac9c4","path":"sprites/sBlackSmithQuest/sBlackSmithQuest.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7858a8d9-b03c-4b83-8082-a631c92ac9c4","path":"sprites/sBlackSmithQuest/sBlackSmithQuest.yy",},"LayerId":{"name":"88f51e14-71da-4efa-8d5e-6dac931014c4","path":"sprites/sBlackSmithQuest/sBlackSmithQuest.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sBlackSmithQuest","path":"sprites/sBlackSmithQuest/sBlackSmithQuest.yy",},"resourceVersion":"1.0","name":"7858a8d9-b03c-4b83-8082-a631c92ac9c4","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"70294fc8-d706-4d24-a114-c410d516640d","path":"sprites/sBlackSmithQuest/sBlackSmithQuest.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"70294fc8-d706-4d24-a114-c410d516640d","path":"sprites/sBlackSmithQuest/sBlackSmithQuest.yy",},"LayerId":{"name":"88f51e14-71da-4efa-8d5e-6dac931014c4","path":"sprites/sBlackSmithQuest/sBlackSmithQuest.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sBlackSmithQuest","path":"sprites/sBlackSmithQuest/sBlackSmithQuest.yy",},"resourceVersion":"1.0","name":"70294fc8-d706-4d24-a114-c410d516640d","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"8030e41d-28be-463a-ac2e-9e3eed417829","path":"sprites/sBlackSmithQuest/sBlackSmithQuest.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8030e41d-28be-463a-ac2e-9e3eed417829","path":"sprites/sBlackSmithQuest/sBlackSmithQuest.yy",},"LayerId":{"name":"88f51e14-71da-4efa-8d5e-6dac931014c4","path":"sprites/sBlackSmithQuest/sBlackSmithQuest.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sBlackSmithQuest","path":"sprites/sBlackSmithQuest/sBlackSmithQuest.yy",},"resourceVersion":"1.0","name":"8030e41d-28be-463a-ac2e-9e3eed417829","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cf7bf923-61c3-41c3-96b7-4f4e3f7e8164",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7858a8d9-b03c-4b83-8082-a631c92ac9c4",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"70294fc8-d706-4d24-a114-c410d516640d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8030e41d-28be-463a-ac2e-9e3eed417829",},
   ],
   "sequence": {
-    "spriteId": {"name":"sBlackSmithQuest","path":"sprites/sBlackSmithQuest/sBlackSmithQuest.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sBlackSmithQuest",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -49,12 +46,12 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"e05f7dbf-0dab-4cdf-86a6-e561f97d5ec5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cf7bf923-61c3-41c3-96b7-4f4e3f7e8164","path":"sprites/sBlackSmithQuest/sBlackSmithQuest.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"45b496bf-f7a5-4896-a3dd-ddfa4f19686f","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7858a8d9-b03c-4b83-8082-a631c92ac9c4","path":"sprites/sBlackSmithQuest/sBlackSmithQuest.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"50e72efc-0e0e-4703-b56f-1e4d8c422326","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"70294fc8-d706-4d24-a114-c410d516640d","path":"sprites/sBlackSmithQuest/sBlackSmithQuest.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"5fcc61d0-c6d1-4666-9a60-348577610922","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8030e41d-28be-463a-ac2e-9e3eed417829","path":"sprites/sBlackSmithQuest/sBlackSmithQuest.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -70,22 +67,13 @@
     "yorigin": 35,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sBlackSmithQuest","path":"sprites/sBlackSmithQuest/sBlackSmithQuest.yy",},
-    "resourceVersion": "1.3",
-    "name": "sBlackSmithQuest",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"88f51e14-71da-4efa-8d5e-6dac931014c4","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"88f51e14-71da-4efa-8d5e-6dac931014c4","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "NPC",
     "path": "folders/Sprites/Entities/NPC.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sBlackSmithQuest",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

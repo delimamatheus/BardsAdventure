@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sHealth",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,24 +27,16 @@
   "gridX": 4,
   "gridY": 4,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"bd40291e-4e8f-4ca0-ab1c-f959067924e9","path":"sprites/sHealth/sHealth.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"bd40291e-4e8f-4ca0-ab1c-f959067924e9","path":"sprites/sHealth/sHealth.yy",},"LayerId":{"name":"a6a68b1e-32f3-4e1b-9902-9a6671548a19","path":"sprites/sHealth/sHealth.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sHealth","path":"sprites/sHealth/sHealth.yy",},"resourceVersion":"1.0","name":"bd40291e-4e8f-4ca0-ab1c-f959067924e9","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"7f36d611-5007-4621-94fe-045309b44244","path":"sprites/sHealth/sHealth.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7f36d611-5007-4621-94fe-045309b44244","path":"sprites/sHealth/sHealth.yy",},"LayerId":{"name":"a6a68b1e-32f3-4e1b-9902-9a6671548a19","path":"sprites/sHealth/sHealth.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sHealth","path":"sprites/sHealth/sHealth.yy",},"resourceVersion":"1.0","name":"7f36d611-5007-4621-94fe-045309b44244","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b8ef0760-4577-4e11-94c9-5adb6474f561","path":"sprites/sHealth/sHealth.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b8ef0760-4577-4e11-94c9-5adb6474f561","path":"sprites/sHealth/sHealth.yy",},"LayerId":{"name":"a6a68b1e-32f3-4e1b-9902-9a6671548a19","path":"sprites/sHealth/sHealth.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sHealth","path":"sprites/sHealth/sHealth.yy",},"resourceVersion":"1.0","name":"b8ef0760-4577-4e11-94c9-5adb6474f561","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"d7bc6454-5727-4c10-99d8-5537692d8dbb","path":"sprites/sHealth/sHealth.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d7bc6454-5727-4c10-99d8-5537692d8dbb","path":"sprites/sHealth/sHealth.yy",},"LayerId":{"name":"a6a68b1e-32f3-4e1b-9902-9a6671548a19","path":"sprites/sHealth/sHealth.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sHealth","path":"sprites/sHealth/sHealth.yy",},"resourceVersion":"1.0","name":"d7bc6454-5727-4c10-99d8-5537692d8dbb","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f9e66892-36f4-475b-a0c6-6c40969ccc2f","path":"sprites/sHealth/sHealth.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f9e66892-36f4-475b-a0c6-6c40969ccc2f","path":"sprites/sHealth/sHealth.yy",},"LayerId":{"name":"a6a68b1e-32f3-4e1b-9902-9a6671548a19","path":"sprites/sHealth/sHealth.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sHealth","path":"sprites/sHealth/sHealth.yy",},"resourceVersion":"1.0","name":"f9e66892-36f4-475b-a0c6-6c40969ccc2f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bd40291e-4e8f-4ca0-ab1c-f959067924e9",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7f36d611-5007-4621-94fe-045309b44244",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b8ef0760-4577-4e11-94c9-5adb6474f561",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d7bc6454-5727-4c10-99d8-5537692d8dbb",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f9e66892-36f4-475b-a0c6-6c40969ccc2f",},
   ],
   "sequence": {
-    "spriteId": {"name":"sHealth","path":"sprites/sHealth/sHealth.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sHealth",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -52,13 +47,13 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"8a48b6b6-a2d9-484f-b689-9a2a8c9d3647","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bd40291e-4e8f-4ca0-ab1c-f959067924e9","path":"sprites/sHealth/sHealth.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"9fcc79e0-bb9e-4781-982b-58de459dee21","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7f36d611-5007-4621-94fe-045309b44244","path":"sprites/sHealth/sHealth.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"0ee6b939-8ffe-4888-a32d-3ad66a306f4b","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b8ef0760-4577-4e11-94c9-5adb6474f561","path":"sprites/sHealth/sHealth.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"a2896f2e-3c24-449a-8c21-3f30c6bd4a3e","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d7bc6454-5727-4c10-99d8-5537692d8dbb","path":"sprites/sHealth/sHealth.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"a694093c-e228-466e-8f9d-0256a5353a61","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f9e66892-36f4-475b-a0c6-6c40969ccc2f","path":"sprites/sHealth/sHealth.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -74,22 +69,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sHealth","path":"sprites/sHealth/sHealth.yy",},
-    "resourceVersion": "1.3",
-    "name": "sHealth",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a6a68b1e-32f3-4e1b-9902-9a6671548a19","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a6a68b1e-32f3-4e1b-9902-9a6671548a19","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Player",
     "path": "folders/Sprites/Entities/Player.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sHealth",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

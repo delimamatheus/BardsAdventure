@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sCoinUI",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"0b8f15e2-0c2f-4810-b2d4-5fd156383adc","path":"sprites/sCoinUI/sCoinUI.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0b8f15e2-0c2f-4810-b2d4-5fd156383adc","path":"sprites/sCoinUI/sCoinUI.yy",},"LayerId":{"name":"fc67e47d-eccb-4b14-9fe1-9fa007c53f2f","path":"sprites/sCoinUI/sCoinUI.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sCoinUI","path":"sprites/sCoinUI/sCoinUI.yy",},"resourceVersion":"1.0","name":"0b8f15e2-0c2f-4810-b2d4-5fd156383adc","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0b8f15e2-0c2f-4810-b2d4-5fd156383adc",},
   ],
   "sequence": {
-    "spriteId": {"name":"sCoinUI","path":"sprites/sCoinUI/sCoinUI.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sCoinUI",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 5.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"52f2c27a-6a53-4935-98d7-319252ecda0c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0b8f15e2-0c2f-4810-b2d4-5fd156383adc","path":"sprites/sCoinUI/sCoinUI.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sCoinUI","path":"sprites/sCoinUI/sCoinUI.yy",},
-    "resourceVersion": "1.3",
-    "name": "sCoinUI",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"fc67e47d-eccb-4b14-9fe1-9fa007c53f2f","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"fc67e47d-eccb-4b14-9fe1-9fa007c53f2f","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Drops",
     "path": "folders/Sprites/Entities/Drops.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sCoinUI",
-  "tags": [],
-  "resourceType": "GMSprite",
 }
