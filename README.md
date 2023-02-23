@@ -1,7 +1,8 @@
 # Bard's Adventure
 
 Desenvolvimento de um jogo para o TCC de Engenharia de Software  
-**EM ANDAMENTO**
+**ENCERRADO COMO VERSÃO DEMO**
+**DESENVOLVIMENTO CONTINUADO EM GODOT**
 
 ## Tabela de conteúdos
 <!--ts-->
