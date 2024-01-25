@@ -2,7 +2,6 @@
 
 Desenvolvimento de um jogo para o TCC de Engenharia de Software  
 **ENCERRADO COMO VERSÃO DEMO.**
-**[DESENVOLVIMENTO CONTINUADO EM GODOT](https://github.com/delimamatheus/BardsAdventureGodot)**
 
 ## Tabela de conteúdos
 <!--ts-->
